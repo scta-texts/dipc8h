@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prooemium</title>
+        <author ref="per-dOcdOc">Durand of Champagne</author>
+        <editor>Constant Mews</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2023-02-15">February 15, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xikjas">Paris, Bnf, Lat. 16622</witness>
+          <witness xml:id="C" n="cod-cccccc">C</witness>
+          <witness xml:id="L" n="cod-lllllk">L</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition. </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-02-15" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1-r"/>
+        <pb ed="#C" n="1-r"/>
+        <pb ed="#L" n="1-r"/>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>Prooemium</head>
+        <p>Incipit liber de <app>
+            <lem>informatione</lem>
+            <rdg wit="#C">administracione</rdg>
+          </app> principum. </p>
+        <p>
+          <cit>
+            <quote source="http://scta.info/resource/ier23_5@12-23">
+              Regnabit rex et sapiens erit et
+              faciet iudicium et iusticiam in terra </quote>
+            <bibl>Jer. 23:5 </bibl>
+          </cit>, 
+          <ref>Ieremia XXIII</ref>. 
+          Si quis in preclarissimo iuuene excellentissimi
+          principis ac domini prepotentis Philippi, Dei gracia Francorum regis illustrissimi
+          primogenito domino uidelicet Ludouico, diligenter attendat uiuacem sensum, subtile
+          ingenium, tenacem memoriam, uoluntatem ad bonum promptissimam, preclaritatem indolis et
+          morum omnium uenustatem, luculenter potest aduertere quam uere de dicto domino Ludouico
+          possit intelligi uerbum propositum: 
+          <cit>
+            <quote source="http://scta.info/resource/ier23_5@12-16">Regnabit rex et sapiens erit</quote>
+            <bibl>Jer. 23:5 </bibl>
+          </cit>, 
+          etc. Et quam preclare et
+          signanter propheta sanctus, quasi demonstrans eum digito, de ipso prenunciet, qualis
+          sperandus sit esse futurus et qualiter in regni rectitudine, sic acturus, predicens autem
+          propheta elegantes conditiones ipsius, breuiter sufficienter et clare docet omnem regem et
+          principem, describens eum quantum at statum excellentie, actum uel usum presidencie, lumen
+          directum, finem completium. Primum intelligitur cum dicit 
+          <cit>
+            <quote source="http://scta.info/resource/ier23_5@13-13" type="lemma">Rex</quote>
+          </cit>, 
+          secundum cum addit
+          <cit>
+            <quote source="http://scta.info/resource/ier23_5@12-12" type="lemma">regnabit</quote>
+          </cit>, 
+          tercium cum subiungit 
+          <cit>
+            <quote source="http://scta.info/resource/ier23_5@15-16" type="lemma">sapiens erit</quote>
+          </cit>, 
+          quartum cum ait 
+          <quote source="http://scta.info/resource/ier23_5@18-23" type="lemma">
+            faciet iudicium et iusticiam in terra
+          </quote>. 
+          <!-- additional text in C and L here -->
+        </p>
+        <p>Ista quatuor sunt necessaria, nec unum sine altero sufficeret. Status enim excellentie
+          sine actu est ociosus et inutilis. Sicut enim oculus non uidens, auris non audiens, manus
+          non operans, medicus non medicans, et sicut statua uel ydolum habens quidem similitudinem
+          hominis uiuentis et tamen de natura et ueritate hominis nichil habens, talis est rex non
+          regnans. Item actus presidentie sine statu est temerarius, iniquus et detestabilis, ut si
+          <app>
+            <lem>aliquis</lem>
+            <rdg wit="#C">quis</rdg>
+          </app> 
+          <app>
+            <lem>usurparet</lem>
+            <rdg wit="#C">extirparet</rdg>
+          </app> 
+          regnare super terram non suam iniquus esset. 
+          Ideo bene iungit propheta
+          ista duo <cit><quote source="http://scta.info/resource/ier23_5@12-13">Regnabit rex</quote></cit>. 
+          Item regi necessaria est sapientia, quia nec regnare nec iudicium
+          <app>
+            <lem>uel</lem>
+            <rdg wit="#P">per</rdg>
+            <rdg wit="#C">per</rdg>
+          </app> 
+          iusticiam facere sciret sine sapientia dirigente. 
+          <pb ed="#P" n="1-v"/> 
+          Nullus enim artifex 
+          <app>
+            <lem>potest operari</lem>
+            <rdg wit="#P" type="variation-absent"/>
+          </app> 
+          que sunt artis, 
+          immo nec artificis nomen habet sine sciencia artis 
+          <pb ed="#L" n="1-v"/> 
+          sue; non
+          enim debet 
+          <app>
+            <lem>dici medicus</lem>
+            <rdg wit="#C" type="variation-inversion">medicus dici</rdg>
+          </app> 
+          qui non habet scientiam medicine, 
+          nec lathomus uel carpentarius
+          est dicendus, qui nichil nouit de istis artificiis. 
+          <app>
+            <lem>Ita</lem>
+            <rdg wit="#C">Item</rdg>
+          </app> 
+          nec rem nec nomen regis habere
+          debet qui non habet scienciam dirigentem.
+          Item tria non sufficiunt sine quarto, 
+          quod est 
+          <cit>
+            <quote source="http://scta.info/resource/ier23_5@18-23">facere iudicium et iustiticiam in terra</quote>
+            <bibl>
+              Jer 23:5
+            </bibl>
+          </cit>. 
+          Ad hoc enim instituti sunt reges sicut
+          scriptum est: 
+          <cit>
+            <quote source="http://scta.info/resource/Ireg10_9@22-29">Constituit te Dominus regem ut faceres iudicium</quote>
+            <bibl>3 Reg 10:9</bibl>
+          </cit>. 
+          Sicut ergo
+          debet episcopus intendere circa regimen animarum, sacerdos celebrare, clericus legere,
+          magister docere, religiosus orare et sue religionis statuta seruare, quia ad predicta
+          institutus est quilibet predictorum. Sic rex tenetur <cit><quote source="http://scta.info/resource/ier23_5@18-21">facere iudicium et iusticiam</quote></cit> quia ad
+          hoc institutus est. Bene ergo dicit propheta Ieremias in uerbo supra 
+          <app>
+            <lem>proposito</lem>
+            <rdg wit="#P">supradicto</rdg>
+          </app>: 
+          <cit>
+            <quote source="http://scta.info/resource/ier23_5@12-23">
+              Regnabit 
+              rex et sapiens erit et faciet iudicium et iusticiam in terra
+            </quote>
+          </cit>. 
+          Iuxta numerum quatuor 
+          predictorum, istud opusculum in partes quatuor est diuisum. De quorum singulis ordine quo
+          supra sunt proposita prosequemur. 
+          <app>
+            <lem>Explicit prohemium</lem>
+            <rdg wit="#C" type="variation-absent"/>
+          </app>.
+        </p>
+        <p>
+          <app>
+            <lem>Incipiunt tituli capitulorum prime partis 
+              <app>
+                <lem>huius libri</lem>
+                <rdg wit="#P" type="variation-absent"/>
+              </app>.
+            </lem>
+            <rdg wit="#C" type="variation-absent"/>
+          </app> 
+        </p>
+        <p>
+          Prima pars huius tractatus habet capitula xxxiiii, 
+          <app>
+            <lem>quorum</lem>
+            <rdg wit="#P" type="variation-absent"/>
+          </app> 
+          primum est de 
+          <app>
+            <lem>dignitate</lem>
+            <rdg wit="#C">dig</rdg><!-- Cac; perhaps this means corrected ?? -->
+          </app> 
+          et excellencia status regalis. Quatuor sequentia sunt de quatuor 
+          <pb ed="#C" n="2-r"/> 
+          concomitantibus
+          regiam dignitatem propter que uidetur appetibilis, que sunt sublimitas honoris et glorie
+          mundialis, immensitas potencie secularis, opulencia diuitiarum temporalium, affluencia
+          deliciarum corporalium. Ita quod:</p>
+        <p>Secundum capitulum huius operis est de sublimitate honoris et glorie</p>
+        <p>Tertium de potencia regali</p>
+        <p>Quartum de opulencia diuiciarum</p>
+        <p>Quintum de affluentia deliciarum</p>
+        <p>Quatuor sequentia sunt de quatuor annexis terreno principatui propter que secundum
+          ueritatem appareret non appetibilis, que 
+          <pb ed="#L" n="1-v"/>
+          sunt uanitas, breuitas, pondus negotiorum,
+          metus periculorum. Ita quod:</p>
+        <p>Sextum capitulum est de uanitate terrene dominationis</p>
+        <p>Septimum de breuitate durationis</p>
+        <p>Octauum de pondere negociorum</p>
+        <p>Nonum de terrore periculorum</p>
+        <p>Decimum quod debet rex esse fidei ueritate fundatus</p>
+        <p>Undecimum quod rex debet esse spei 
+          <pb ed="#P" n="2-r"/> 
+          soliditate firmatus</p>
+        <p>
+          <app>
+            <lem>Xii</lem>
+            <rdg wit="#C">Duodecimum</rdg>
+          </app> 
+          quod debet esse in Dei amore perfectus</p>
+        <p>Xiii quod debet esse Deo timore subiectus </p>
+        <p>Xiiii quod debet esse in oratione 
+          <app>
+            <lem>deuotus</lem>
+            <rdg wit="#C">deutous in oratione</rdg>
+          </app>
+        </p>
+        <p>Xv quod debet esse ecclesie Dei reuerens et beneuolens</p>
+        <p>Xvi quod debet esse humilis in sui reputatione</p>
+        <p>Xvii quod debet esse docilis in doctrine susceptione</p>
+        <p>Xviii quod debet esse ductilis in persuasione</p>
+        <p>Xix quod debet esse stabilis in operatione</p>
+        <p>Xx quod rex debet esse honestus in conuersatione</p>
+        <p>Xxi quod debet esse modestus in opere et sermone</p>
+        <p>Xxii quod debet esse secretus in consultatione</p>
+        <p>Xxiii quod debet esse discretus in loquutione</p>
+        <p>Xxiiii quod debet esse curialis in suscipiendis hospitibus</p>
+        <p>Xxv quod debet esse liberalis in conferendis muneribus</p>
+        <p>Xxvi quod rex debet esse magnificus</p>
+        <p>Xxvii quod debet esse magnanimus</p>
+        <p>Xxviii quod debet esse continens in carnis delectatione frenanda </p>
+        <p>Xxix quod debet abstinens esse in corporis refectione sumenda</p>
+        <p>XXX quod regem decet clementia </p>
+        <p>XXXi quod debet esse bonis amabilis</p>
+        <p>XXXii quod debet esse malis terribilis</p>
+        <p>XXXiii quod regem decet patiencia</p>
+      </div>
+    </body>
+  </text>
+</TEI>

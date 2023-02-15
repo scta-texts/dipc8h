@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 1</title>
+        <author ref="per-dOcdOc">Durand of Champagne</author>
+        <editor>Constant Mews</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 1</title>
+          <date when="2023-02-15">February 15, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xikjas">Paris, Bnf, Lat. 16622</witness>
+          <witness xml:id="C" n="cod-cccccc">C</witness>
+          <witness xml:id="L" n="cod-lllllk">L</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition. </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-02-15" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="2-r"/>
+        <pb ed="#C" n="1-v"/>
+        <pb ed="#L" n="2-r"/>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>Capitulum 1</head>
+        <head type="question-title">Dignitas regiae majestatis</head>
+        <p>
+          <app>
+            <lem>Capitulum Primum</lem>
+            <rdg wit="#C" type="variation-inversion">
+              Primum capitulum
+            </rdg>
+            <rdg wit="#P" type="variation-absent"/>
+          </app> 
+          <app>
+            <lem>dignitas regie majestatis</lem>
+            <rdg wit="#C" type="variation-absent"/>
+            <rdg wit="#P">
+              de excellencia et dignitate regie maiestatis
+            </rdg>
+          </app>
+        </p>
+        <p>
+          Circa primum consideranda est primo dignitas regie maiestatis. 
+          <pb ed="#C" n="2-r"/>
+          Sciendum est autem
+          quod cum respublica sit quasi quoddam corpus compaginatum ex membris uariis, rex 
+          <pb ed="#L" n="2-v"/>
+          uel princeps in eo obtinet locum capitis senescali prepositi et iudices officium aurum
+          <app>
+            <lem>habent</lem>
+            <rdg wit="#L" type="variation-absent"/>
+            <rdg wit="#C" type="variation-absent"/>
+          </app> 
+          et oculorum. 
+          Sapientes 
+          <app>
+            <lem>consiliarii</lem>
+            <rdg wit="#L">officiarii</rdg>
+            <rdg wit="#C">officiarii</rdg>
+          </app> 
+          officium cordis, 
+          milites 
+          <app>
+            <lem>protegentes</lem>
+            <rdg wit="#C">tegentes</rdg>
+            <rdg wit="#L">tegentes</rdg>
+          </app> 
+          sunt ad modum manuum,
+          mercatores discurrentes per mundum ad modum tibiarum, agricole et alli
+          pauperes solo inherentes ad modum pedum. 
+          Princeps igitur in corpore reipublice est sicut
+          caput, unde dixit Samuel ad Saul: 
+          <cit>
+            <quote source="http://scta.info/resource/Isam15_17@4-16">
+              Cum esses paruulus in oculis tuis, nonne caput in 
+              tribubus Israel factus es
+            </quote>
+            <bibl>
+              1 Reg 15:17 <!-- seems like Isam 15:17?? -->
+            </bibl>
+          </cit> ; 
+          et merito 
+          <app>
+            <lem>per</lem>
+            <rdg wit="#L" type="variation-absent"/>
+          </app> 
+          caput designatur rex uel princeps
+          quia sicut caput omnibus membris superimponitur et est omnium regitiuum et in sublimine
+          erectum et omnibus sensibus dotatiuum singulari uenustate effigiatum, ita rex uel princeps
+          omnibus superponitur; omnes habet dirigere cordis oculos, et faciem anime debet ad celum
+          erigere omnibus 
+          <pb ed="#P" n="2-v"/> 
+          sensibus, id est perfecta cognitione debet precellere singulari
+          morum uenustate pollere. Vnde merito regi uel principi omnes obediunt sicut capiti omnia
+          corporis membra deseruiunt. Vnde ait 
+          <ref>beatus Ambrosius</ref>: 
+          <cit>
+            <quote>
+              Huic igitur principi quasi 
+              consultori suo cetera membra famulantur et in sublimi collocatum uehunt.
+            </quote>
+            <bibl>
+              <name>Ambrose of Milan</name>, 
+              <title>Exameron</title>, 6.9.57, 
+              CSEL 32,1: 248 
+            </bibl>
+          </cit>
+          Videas
+          imperatori suo singula
+          <app>
+            <lem n="singula"/>
+            <rdg wit="#C" type="variation-present">membra</rdg>
+            <rdg wit="#L" type="variation-present">membra</rdg>
+          </app> 
+          gratuito stipendio militare alia portant, 
+          alia pascunt, alia
+          defendunt, uel ministerium suum exhibent, 
+          parent 
+          <app>
+            <lem>uel principi</lem>
+            <rdg wit="#P" type="variation-absent"/>
+          </app> 
+          famulantur, 
+          <app>
+            <lem>ut domino</lem>
+            <rdg wit="#L" type="variation-absent"/>
+          </app>.
+        </p>
+        <p>
+          Ex predictis aduerte quod sicut caput est ceteris membris altius collocatum, sic etiam
+          est pulcrius et perfectius, ut intelligas quod sicut rex precellit alios magnificentia
+          dignitatis, sic debet omnes excellere preeminentia bonitatis, quia sicut ait beatus
+          Bernardus: 
+          <cit>
+            <quote>
+              Monstruosa res est gradus summus et animus infimus, 
+              sedes prima, 
+              et 
+              <app>
+                <lem>uita</lem>
+                <rdg wit="#P">fides</rdg>
+              </app> 
+              ima,
+              lingua magniloqua et manus ociosa, 
+              sermo multus et fructus nullus, 
+              uultus grauis et actus leuis, 
+              ingens auctoritas et nutans stabilitas
+            </quote>
+          </cit>. 
+          Idem etiam dicit: 
+          <cit>
+            <quote>
+              Simia in tecto, rex 
+              fatuus in solio sedens
+            </quote>
+          </cit>. 
+          Pulcre et proprie loquitur quia simia quanto plus ascendit, tanto
+          euidentius apparet eius turpitudo. 
+          Sic 
+          <app>
+            <lem>quanto</lem>
+            <rdg wit="#L">que</rdg>
+          </app> 
+          in majori dignitate sublimatur indignus,
+          <pb ed="#L" n="3-r"/>
+          tanto euidentius manifestatur eius indignitas. 
+          Item <name>Boecius</name> dicit: 
+          <cit>
+            <quote source="http://scta.info/resource/hy7y6y-d1e67-d1e278@7-42" type="paraphrase">
+              Cum eo abiectior 
+              sit quisque quo magis contempnitur a pluribus 
+              dignitas autem temporalis non posset facere
+              malos reuerendos, quanto dignitas eos pluribus ostendit, 
+              tanto despectiores facit, et hoc
+              merito. Reddunt enim mali dignitatibus parem uicem, quas sua contagione conmaculant et
+              sicut ipsi deturpant dignitates, sic econuerso. 
+            </quote>
+            <bibl>
+              <name>Boethius</name>, 
+              <title>Consolatio philosophiae</title> III
+              <!-- this quotation wasn't marked in Word document; it's kind of paraphras-ey, but definitely the intended target passage -->
+            </bibl>
+          </cit>
+          Ideo recitat <name>Iheronimus</name>, 
+          quod cum <name>Cesar</name> quosdam 
+          <app>
+            <lem>indignos</lem>
+            <rdg wit="L" type="variation-absent"/>
+          </app> 
+          ornare uoluisset, non eos honestauit, sed ornamenta ipsa id est
+          dignitates deturpauit, scilicet propter indignitatem illorum.
+          <!-- endNote 4 identifies a vague source for "ideo...illorum"; seems more like a commentary note --> 
+          Item diligenter attende quod
+          facta regum et principum faciliter trahuntur ab aliis 
+          <pb ed="#P" n="3-r"/> 
+          in exemplum, et plus mouent
+          populum ad bonum uel ad malum imitandum, quam exempla inferiorum. 
+          Facta enim egregia et
+          opera uirtuosa principis
+          <pb ed="#C" n="2-v"/>  
+          magis admiratur populus, et plus notat et conmendat, quam
+          inferioris persone. Vnde 
+          <ref><name>Claudianus</name> ad Theodosium</ref> 
+          loquens sic ait: 
+          <cit>
+            <quote>
+              Componitur orbis regis 
+              ad exemplum nec sic inflectere sensus 
+              humanos edicta ualent quam uita regentis, mobile 
+              mutatur semper cum principe uulgus
+            </quote>
+          </cit>. 
+          Ideo sicut in libro Regum legimus: 
+          <cit>
+            <quote>
+              Bonitatem uel malitiam regis imitabatur populus
+            </quote>
+            <bibl>
+              <!--cf. -->Paralip 21:13
+            </bibl>
+          </cit>. 
+          Quando enim reges erant boni
+          timentes et colentes Deum, populus bonus erat; quando autem reges erant ydolatre uel
+          peccatis aliis irretiti, tunc et populus ad ydolatriam, et ad multa scelera defluebat.
+          Igitur sumopere studere debet rex bonus esse, ut multis sit exemplum et speculum
+          bonitatis, ne forte si malus sit multis sit perditionis occasio, eique mors omnium
+          imputetur, quia sicut ait 
+          <name>Gregorius</name>: 
+          <cit>
+            <quote>
+              Sciant prelati quam tot mortibus digni sunt, quot
+              perditionis exempla ad subditos transmitunt
+            </quote>
+          </cit>. 
+          Hoc autem non solum ad prelatos
+          ecclesiasticos, sed etiam ad reges et principes debet intelligi pertinere.
+        </p>
+        <p>
+          Item cum reges et principes singula queque uelint habere preelecta 
+          <app>
+            <lem>id est</lem>
+            <rdg wit="#P" type="variation-absent"/>
+          </app>, 
+          meliora, pulcriora, preciosioraque ualeant inueniri. Verbi gratia, electam familiam, 
+          equos electos, electissima iocalia, uina, cibaria, uestimenta, et huusmodi, 
+          tanto magis ipsi inter electos esse debent electiores inter bonos, meliores, 
+          et precunctis in omnibus
+          excellentes. Nec debent esse contenti bonitate uel sanctitate communi, 
+          nisi tantum 
+          <pb ed="#L" n="3-v"/>
+          excedat bonitas eorum, 
+          <app>
+            <lem>quantum</lem>
+            <rdg wit="#P">quantus</rdg>
+          </app> status eorum exedit statum omnium subditorum. 
+          Ex predictis
+          patet quod rex uel princeps laborare debet non solum bonus esse, 
+          sed melior omnibus.</p>
+        <p>
+          Primo ne tanta dignitate sit indignus. 
+          Secundo ne multorum peccata sibi imputentur et pro omnibus puniatur. 
+          Tertio ne omnium rerum suarum bonitas preelecta sit in obprobrium et
+          confusionem extremam, nisi omnibus melior et electior inueniatur. 
+          Hec de bonitate regis 
+          <pb ed="#P" n="3-v"/>
+          in generali sufficiunt quia de bonitate speciali eius inferius in speciali
+          dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
