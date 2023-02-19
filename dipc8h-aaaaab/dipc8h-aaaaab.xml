@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,8 +19,7 @@
       <publicationStmt>
         <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -33,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition. </p>
@@ -57,10 +54,10 @@
       </div>
     </front>
     <body>
-      <div>
-        <head>Capitulum 1</head>
-        <head type="question-title">Dignitas regiae majestatis</head>
-        <p>
+      <div xml:id="dipc8h-aaaaab">
+        <head xml:id="dipc8h-aaaaab-Hd1e106">Capitulum 1</head>
+        <head xml:id="dipc8h-aaaaab-Hd1e108" type="question-title">Dignitas regiae majestatis</head>
+        <p xml:id="dipc8h-aaaaab-d1e111">
           <app>
             <lem>Capitulum Primum</lem>
             <rdg wit="#C" type="variation-inversion">
@@ -76,7 +73,7 @@
             </rdg>
           </app>
         </p>
-        <p>
+        <p xml:id="dipc8h-aaaaab-d1e134">
           Circa primum consideranda est primo dignitas regie maiestatis. 
           <pb ed="#C" n="2-r"/>
           Sciendum est autem
@@ -108,7 +105,7 @@
           Princeps igitur in corpore reipublice est sicut
           caput, unde dixit Samuel ad Saul: 
           <cit>
-            <quote source="http://scta.info/resource/Isam15_17@4-16">
+            <quote xml:id="dipc8h-aaaaab-Qd1e174" source="http://scta.info/resource/Isam15_17@4-16">
               Cum esses paruulus in oculis tuis, nonne caput in 
               tribubus Israel factus es
             </quote>
@@ -130,9 +127,9 @@
           sensibus, id est perfecta cognitione debet precellere singulari
           morum uenustate pollere. Vnde merito regi uel principi omnes obediunt sicut capiti omnia
           corporis membra deseruiunt. Vnde ait 
-          <ref>beatus Ambrosius</ref>: 
+          <ref xml:id="dipc8h-aaaaab-Rd1e192">beatus Ambrosius</ref>: 
           <cit>
-            <quote>
+            <quote xml:id="dipc8h-aaaaab-Qd1e196">
               Huic igitur principi quasi 
               consultori suo cetera membra famulantur et in sublimi collocatum uehunt.
             </quote>
@@ -163,13 +160,13 @@
             <rdg wit="#L" type="variation-absent"/>
           </app>.
         </p>
-        <p>
+        <p xml:id="dipc8h-aaaaab-d1e233">
           Ex predictis aduerte quod sicut caput est ceteris membris altius collocatum, sic etiam
           est pulcrius et perfectius, ut intelligas quod sicut rex precellit alios magnificentia
           dignitatis, sic debet omnes excellere preeminentia bonitatis, quia sicut ait beatus
           Bernardus: 
           <cit>
-            <quote>
+            <quote xml:id="dipc8h-aaaaab-Qd1e237">
               Monstruosa res est gradus summus et animus infimus, 
               sedes prima, 
               et 
@@ -186,7 +183,7 @@
           </cit>. 
           Idem etiam dicit: 
           <cit>
-            <quote>
+            <quote xml:id="dipc8h-aaaaab-Qd1e251">
               Simia in tecto, rex 
               fatuus in solio sedens
             </quote>
@@ -201,9 +198,9 @@
           in majori dignitate sublimatur indignus,
           <pb ed="#L" n="3-r"/>
           tanto euidentius manifestatur eius indignitas. 
-          Item <name>Boecius</name> dicit: 
+          Item <name xml:id="dipc8h-aaaaab-Nd1e264">Boecius</name> dicit: 
           <cit>
-            <quote source="http://scta.info/resource/hy7y6y-d1e67-d1e278@7-42" type="paraphrase">
+            <quote xml:id="dipc8h-aaaaab-Qd1e269" source="http://scta.info/resource/hy7y6y-d1e67-d1e278@7-42" type="paraphrase">
               Cum eo abiectior 
               sit quisque quo magis contempnitur a pluribus 
               dignitas autem temporalis non posset facere
@@ -218,8 +215,8 @@
               <!-- this quotation wasn't marked in Word document; it's kind of paraphras-ey, but definitely the intended target passage -->
             </bibl>
           </cit>
-          Ideo recitat <name>Iheronimus</name>, 
-          quod cum <name>Cesar</name> quosdam 
+          Ideo recitat <name xml:id="dipc8h-aaaaab-Nd1e282">Iheronimus</name>, 
+          quod cum <name xml:id="dipc8h-aaaaab-Nd1e284">Cesar</name> quosdam 
           <app>
             <lem>indignos</lem>
             <rdg wit="L" type="variation-absent"/>
@@ -237,10 +234,10 @@
           <pb ed="#C" n="2-v"/>  
           magis admiratur populus, et plus notat et conmendat, quam
           inferioris persone. Vnde 
-          <ref><name>Claudianus</name> ad Theodosium</ref> 
+          <ref xml:id="dipc8h-aaaaab-Rd1e300"><name xml:id="dipc8h-aaaaab-Nd1e301">Claudianus</name> ad Theodosium</ref> 
           loquens sic ait: 
           <cit>
-            <quote>
+            <quote xml:id="dipc8h-aaaaab-Qd1e306">
               Componitur orbis regis 
               ad exemplum nec sic inflectere sensus 
               humanos edicta ualent quam uita regentis, mobile 
@@ -249,7 +246,7 @@
           </cit>. 
           Ideo sicut in libro Regum legimus: 
           <cit>
-            <quote>
+            <quote xml:id="dipc8h-aaaaab-Qd1e311">
               Bonitatem uel malitiam regis imitabatur populus
             </quote>
             <bibl>
@@ -262,9 +259,9 @@
           Igitur sumopere studere debet rex bonus esse, ut multis sit exemplum et speculum
           bonitatis, ne forte si malus sit multis sit perditionis occasio, eique mors omnium
           imputetur, quia sicut ait 
-          <name>Gregorius</name>: 
+          <name xml:id="dipc8h-aaaaab-Nd1e319">Gregorius</name>: 
           <cit>
-            <quote>
+            <quote xml:id="dipc8h-aaaaab-Qd1e323">
               Sciant prelati quam tot mortibus digni sunt, quot
               perditionis exempla ad subditos transmitunt
             </quote>
@@ -272,7 +269,7 @@
           Hoc autem non solum ad prelatos
           ecclesiasticos, sed etiam ad reges et principes debet intelligi pertinere.
         </p>
-        <p>
+        <p xml:id="dipc8h-aaaaab-d1e328">
           Item cum reges et principes singula queque uelint habere preelecta 
           <app>
             <lem>id est</lem>
@@ -293,7 +290,7 @@
           Ex predictis
           patet quod rex uel princeps laborare debet non solum bonus esse, 
           sed melior omnibus.</p>
-        <p>
+        <p xml:id="dipc8h-aaaaab-d1e348">
           Primo ne tanta dignitate sit indignus. 
           Secundo ne multorum peccata sibi imputentur et pro omnibus puniatur. 
           Tertio ne omnium rerum suarum bonitas preelecta sit in obprobrium et

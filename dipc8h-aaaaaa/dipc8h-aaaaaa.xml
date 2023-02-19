@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,8 +19,7 @@
       <publicationStmt>
         <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -33,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition. </p>
@@ -57,20 +54,20 @@
       </div>
     </front>
     <body>
-      <div>
-        <head>Prooemium</head>
-        <p>Incipit liber de <app>
+      <div xml:id="dipc8h-aaaaaa">
+        <head xml:id="dipc8h-aaaaaa-Hd1e106">Prooemium</head>
+        <p xml:id="dipc8h-aaaaaa-d1e108">Incipit liber de <app>
             <lem>informatione</lem>
             <rdg wit="#C">administracione</rdg>
           </app> principum. </p>
-        <p>
+        <p xml:id="dipc8h-aaaaaa-d1e119">
           <cit>
-            <quote source="http://scta.info/resource/ier23_5@12-23">
+            <quote xml:id="dipc8h-aaaaaa-Qd1e123" source="http://scta.info/resource/ier23_5@12-23">
               Regnabit rex et sapiens erit et
               faciet iudicium et iusticiam in terra </quote>
             <bibl>Jer. 23:5 </bibl>
           </cit>, 
-          <ref>Ieremia XXIII</ref>. 
+          <ref xml:id="dipc8h-aaaaaa-Rd1e129">Ieremia XXIII</ref>. 
           Si quis in preclarissimo iuuene excellentissimi
           principis ac domini prepotentis Philippi, Dei gracia Francorum regis illustrissimi
           primogenito domino uidelicet Ludouico, diligenter attendat uiuacem sensum, subtile
@@ -78,7 +75,7 @@
           morum omnium uenustatem, luculenter potest aduertere quam uere de dicto domino Ludouico
           possit intelligi uerbum propositum: 
           <cit>
-            <quote source="http://scta.info/resource/ier23_5@12-16">Regnabit rex et sapiens erit</quote>
+            <quote xml:id="dipc8h-aaaaaa-Qd1e133" source="http://scta.info/resource/ier23_5@12-16">Regnabit rex et sapiens erit</quote>
             <bibl>Jer. 23:5 </bibl>
           </cit>, 
           etc. Et quam preclare et
@@ -88,23 +85,23 @@
           principem, describens eum quantum at statum excellentie, actum uel usum presidencie, lumen
           directum, finem completium. Primum intelligitur cum dicit 
           <cit>
-            <quote source="http://scta.info/resource/ier23_5@13-13" type="lemma">Rex</quote>
+            <quote xml:id="dipc8h-aaaaaa-Qd1e141" source="http://scta.info/resource/ier23_5@13-13" type="lemma">Rex</quote>
           </cit>, 
           secundum cum addit
           <cit>
-            <quote source="http://scta.info/resource/ier23_5@12-12" type="lemma">regnabit</quote>
+            <quote xml:id="dipc8h-aaaaaa-Qd1e147" source="http://scta.info/resource/ier23_5@12-12" type="lemma">regnabit</quote>
           </cit>, 
           tercium cum subiungit 
           <cit>
-            <quote source="http://scta.info/resource/ier23_5@15-16" type="lemma">sapiens erit</quote>
+            <quote xml:id="dipc8h-aaaaaa-Qd1e154" source="http://scta.info/resource/ier23_5@15-16" type="lemma">sapiens erit</quote>
           </cit>, 
           quartum cum ait 
-          <quote source="http://scta.info/resource/ier23_5@18-23" type="lemma">
+          <quote xml:id="dipc8h-aaaaaa-Qd1e158" source="http://scta.info/resource/ier23_5@18-23" type="lemma">
             faciet iudicium et iusticiam in terra
           </quote>. 
           <!-- additional text in C and L here -->
         </p>
-        <p>Ista quatuor sunt necessaria, nec unum sine altero sufficeret. Status enim excellentie
+        <p xml:id="dipc8h-aaaaaa-d1e164">Ista quatuor sunt necessaria, nec unum sine altero sufficeret. Status enim excellentie
           sine actu est ociosus et inutilis. Sicut enim oculus non uidens, auris non audiens, manus
           non operans, medicus non medicans, et sicut statua uel ydolum habens quidem similitudinem
           hominis uiuentis et tamen de natura et ueritate hominis nichil habens, talis est rex non
@@ -119,7 +116,7 @@
           </app> 
           regnare super terram non suam iniquus esset. 
           Ideo bene iungit propheta
-          ista duo <cit><quote source="http://scta.info/resource/ier23_5@12-13">Regnabit rex</quote></cit>. 
+          ista duo <cit><quote xml:id="dipc8h-aaaaaa-Qd1e183" source="http://scta.info/resource/ier23_5@12-13">Regnabit rex</quote></cit>. 
           Item regi necessaria est sapientia, quia nec regnare nec iudicium
           <app>
             <lem>uel</lem>
@@ -154,7 +151,7 @@
           Item tria non sufficiunt sine quarto, 
           quod est 
           <cit>
-            <quote source="http://scta.info/resource/ier23_5@18-23">facere iudicium et iustiticiam in terra</quote>
+            <quote xml:id="dipc8h-aaaaaa-Qd1e227" source="http://scta.info/resource/ier23_5@18-23">facere iudicium et iustiticiam in terra</quote>
             <bibl>
               Jer 23:5
             </bibl>
@@ -162,20 +159,20 @@
           Ad hoc enim instituti sunt reges sicut
           scriptum est: 
           <cit>
-            <quote source="http://scta.info/resource/Ireg10_9@22-29">Constituit te Dominus regem ut faceres iudicium</quote>
+            <quote xml:id="dipc8h-aaaaaa-Qd1e235" source="http://scta.info/resource/Ireg10_9@22-29">Constituit te Dominus regem ut faceres iudicium</quote>
             <bibl>3 Reg 10:9</bibl>
           </cit>. 
           Sicut ergo
           debet episcopus intendere circa regimen animarum, sacerdos celebrare, clericus legere,
           magister docere, religiosus orare et sue religionis statuta seruare, quia ad predicta
-          institutus est quilibet predictorum. Sic rex tenetur <cit><quote source="http://scta.info/resource/ier23_5@18-21">facere iudicium et iusticiam</quote></cit> quia ad
+          institutus est quilibet predictorum. Sic rex tenetur <cit><quote xml:id="dipc8h-aaaaaa-Qd1e243" source="http://scta.info/resource/ier23_5@18-21">facere iudicium et iusticiam</quote></cit> quia ad
           hoc institutus est. Bene ergo dicit propheta Ieremias in uerbo supra 
           <app>
             <lem>proposito</lem>
             <rdg wit="#P">supradicto</rdg>
           </app>: 
           <cit>
-            <quote source="http://scta.info/resource/ier23_5@12-23">
+            <quote xml:id="dipc8h-aaaaaa-Qd1e256" source="http://scta.info/resource/ier23_5@12-23">
               Regnabit 
               rex et sapiens erit et faciet iudicium et iusticiam in terra
             </quote>
@@ -188,7 +185,7 @@
             <rdg wit="#C" type="variation-absent"/>
           </app>.
         </p>
-        <p>
+        <p xml:id="dipc8h-aaaaaa-d1e268">
           <app>
             <lem>Incipiunt tituli capitulorum prime partis 
               <app>
@@ -199,7 +196,7 @@
             <rdg wit="#C" type="variation-absent"/>
           </app> 
         </p>
-        <p>
+        <p xml:id="dipc8h-aaaaaa-d1e287">
           Prima pars huius tractatus habet capitula xxxiiii, 
           <app>
             <lem>quorum</lem>
@@ -216,55 +213,55 @@
           regiam dignitatem propter que uidetur appetibilis, que sunt sublimitas honoris et glorie
           mundialis, immensitas potencie secularis, opulencia diuitiarum temporalium, affluencia
           deliciarum corporalium. Ita quod:</p>
-        <p>Secundum capitulum huius operis est de sublimitate honoris et glorie</p>
-        <p>Tertium de potencia regali</p>
-        <p>Quartum de opulencia diuiciarum</p>
-        <p>Quintum de affluentia deliciarum</p>
-        <p>Quatuor sequentia sunt de quatuor annexis terreno principatui propter que secundum
+        <p xml:id="dipc8h-aaaaaa-d1e308">Secundum capitulum huius operis est de sublimitate honoris et glorie</p>
+        <p xml:id="dipc8h-aaaaaa-d1e310">Tertium de potencia regali</p>
+        <p xml:id="dipc8h-aaaaaa-d1e312">Quartum de opulencia diuiciarum</p>
+        <p xml:id="dipc8h-aaaaaa-d1e314">Quintum de affluentia deliciarum</p>
+        <p xml:id="dipc8h-aaaaaa-d1e316">Quatuor sequentia sunt de quatuor annexis terreno principatui propter que secundum
           ueritatem appareret non appetibilis, que 
           <pb ed="#L" n="1-v"/>
           sunt uanitas, breuitas, pondus negotiorum,
           metus periculorum. Ita quod:</p>
-        <p>Sextum capitulum est de uanitate terrene dominationis</p>
-        <p>Septimum de breuitate durationis</p>
-        <p>Octauum de pondere negociorum</p>
-        <p>Nonum de terrore periculorum</p>
-        <p>Decimum quod debet rex esse fidei ueritate fundatus</p>
-        <p>Undecimum quod rex debet esse spei 
+        <p xml:id="dipc8h-aaaaaa-d1e322">Sextum capitulum est de uanitate terrene dominationis</p>
+        <p xml:id="dipc8h-aaaaaa-d1e324">Septimum de breuitate durationis</p>
+        <p xml:id="dipc8h-aaaaaa-d1e326">Octauum de pondere negociorum</p>
+        <p xml:id="dipc8h-aaaaaa-d1e328">Nonum de terrore periculorum</p>
+        <p xml:id="dipc8h-aaaaaa-d1e330">Decimum quod debet rex esse fidei ueritate fundatus</p>
+        <p xml:id="dipc8h-aaaaaa-d1e332">Undecimum quod rex debet esse spei 
           <pb ed="#P" n="2-r"/> 
           soliditate firmatus</p>
-        <p>
+        <p xml:id="dipc8h-aaaaaa-d1e338">
           <app>
             <lem>Xii</lem>
             <rdg wit="#C">Duodecimum</rdg>
           </app> 
           quod debet esse in Dei amore perfectus</p>
-        <p>Xiii quod debet esse Deo timore subiectus </p>
-        <p>Xiiii quod debet esse in oratione 
+        <p xml:id="dipc8h-aaaaaa-d1e349">Xiii quod debet esse Deo timore subiectus </p>
+        <p xml:id="dipc8h-aaaaaa-d1e351">Xiiii quod debet esse in oratione 
           <app>
             <lem>deuotus</lem>
             <rdg wit="#C">deutous in oratione</rdg>
           </app>
         </p>
-        <p>Xv quod debet esse ecclesie Dei reuerens et beneuolens</p>
-        <p>Xvi quod debet esse humilis in sui reputatione</p>
-        <p>Xvii quod debet esse docilis in doctrine susceptione</p>
-        <p>Xviii quod debet esse ductilis in persuasione</p>
-        <p>Xix quod debet esse stabilis in operatione</p>
-        <p>Xx quod rex debet esse honestus in conuersatione</p>
-        <p>Xxi quod debet esse modestus in opere et sermone</p>
-        <p>Xxii quod debet esse secretus in consultatione</p>
-        <p>Xxiii quod debet esse discretus in loquutione</p>
-        <p>Xxiiii quod debet esse curialis in suscipiendis hospitibus</p>
-        <p>Xxv quod debet esse liberalis in conferendis muneribus</p>
-        <p>Xxvi quod rex debet esse magnificus</p>
-        <p>Xxvii quod debet esse magnanimus</p>
-        <p>Xxviii quod debet esse continens in carnis delectatione frenanda </p>
-        <p>Xxix quod debet abstinens esse in corporis refectione sumenda</p>
-        <p>XXX quod regem decet clementia </p>
-        <p>XXXi quod debet esse bonis amabilis</p>
-        <p>XXXii quod debet esse malis terribilis</p>
-        <p>XXXiii quod regem decet patiencia</p>
+        <p xml:id="dipc8h-aaaaaa-d1e362">Xv quod debet esse ecclesie Dei reuerens et beneuolens</p>
+        <p xml:id="dipc8h-aaaaaa-d1e364">Xvi quod debet esse humilis in sui reputatione</p>
+        <p xml:id="dipc8h-aaaaaa-d1e366">Xvii quod debet esse docilis in doctrine susceptione</p>
+        <p xml:id="dipc8h-aaaaaa-d1e369">Xviii quod debet esse ductilis in persuasione</p>
+        <p xml:id="dipc8h-aaaaaa-d1e371">Xix quod debet esse stabilis in operatione</p>
+        <p xml:id="dipc8h-aaaaaa-d1e373">Xx quod rex debet esse honestus in conuersatione</p>
+        <p xml:id="dipc8h-aaaaaa-d1e375">Xxi quod debet esse modestus in opere et sermone</p>
+        <p xml:id="dipc8h-aaaaaa-d1e377">Xxii quod debet esse secretus in consultatione</p>
+        <p xml:id="dipc8h-aaaaaa-d1e379">Xxiii quod debet esse discretus in loquutione</p>
+        <p xml:id="dipc8h-aaaaaa-d1e382">Xxiiii quod debet esse curialis in suscipiendis hospitibus</p>
+        <p xml:id="dipc8h-aaaaaa-d1e384">Xxv quod debet esse liberalis in conferendis muneribus</p>
+        <p xml:id="dipc8h-aaaaaa-d1e386">Xxvi quod rex debet esse magnificus</p>
+        <p xml:id="dipc8h-aaaaaa-d1e388">Xxvii quod debet esse magnanimus</p>
+        <p xml:id="dipc8h-aaaaaa-d1e390">Xxviii quod debet esse continens in carnis delectatione frenanda </p>
+        <p xml:id="dipc8h-aaaaaa-d1e392">Xxix quod debet abstinens esse in corporis refectione sumenda</p>
+        <p xml:id="dipc8h-aaaaaa-d1e395">XXX quod regem decet clementia </p>
+        <p xml:id="dipc8h-aaaaaa-d1e397">XXXi quod debet esse bonis amabilis</p>
+        <p xml:id="dipc8h-aaaaaa-d1e399">XXXii quod debet esse malis terribilis</p>
+        <p xml:id="dipc8h-aaaaaa-d1e401">XXXiii quod regem decet patiencia</p>
       </div>
     </body>
   </text>

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 2</title>
+        <author ref="per-dOcdOc">Durand of Champagne</author>
+        <editor>Constant Mews</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 2</title>
+          <date when="2023-02-19">February 19, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xikjas">Paris, Bnf, Lat. 16622</witness>
+          <witness xml:id="C" n="cod-cccccc">C</witness>
+          <witness xml:id="L" n="cod-lllllk">L</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition. </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-02-19" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="3-v"/>
+        <pb ed="#C" n="2-v"/>
+        <pb ed="#L" n="3-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="dipc8h-aaaaac">
+        <head xml:id="dipc8h-aaaaac-Hd1e106">Capitulum 2</head>
+        <p xml:id="dipc8h-aaaaac-d1e108">
+          Capitulum secundum, 
+          <app>
+            <lem>De quatuor concomitantibus regiam dignitatem</lem>
+            <rdg wit="#C #L">De sublimitate honoris et glorie </rdg>
+          </app>
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e119">
+          Regiam dignitatem communiter quatuor 
+          <app>
+            <lem>concomitantur</lem>
+            <rdg wit="#CL">concomitantur quatuor</rdg>
+          </app> 
+          que multum uidentur hominibus
+          appetenda, et propter que solent
+          <app>
+            <lem n="solent"/>
+            <rdg wit="#P">homines</rdg>
+          </app> 
+          appetere dominationes terrenas siue excellencias
+          temporales. Videlicet sublimitas honoris et glorie 
+          <app>
+            <lem>mundialis</lem>
+            <rdg wit="#C" type="variation-absent"/> 
+          </app> 
+          immensitas, roboris et
+          potencie secularis, opulencia diuiciarum temporalium, affluencia deliciarum
+          corporalium.
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e145">
+          Solent enim et debent reges a subditis honorati sicut capita corporis, sicut patres
+          patrie, sicut duces et patroni et populi protectores per quos sunt in terra fertilitas et
+          habundancia facultatum, gaudium cordis et concordia uoluntatum, pax inter ipsos subditos
+          et securitas ab inimicis undique circumstantibus conseruatur. Ideo dicit beatus Petrus:
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e149" source="http://scta.info/resource/Ipetr2_17@7-8">Regem honorificate</quote>
+            <bibl>1 Pet 2:17</bibl>
+          </cit>. 
+          Idem, subditi estote omni humane 
+          <pb ed="#C" n="3-r"/>
+          creature propter
+          Deum, siue regi quasi precellenti siue duabus tanque ab eo missis, ad uindictam
+          <app>
+            <lem>malefactorum</lem>
+            <rdg wit="#P">maledictorum</rdg>
+          </app>, 
+          laudem uero bonorum. 
+          Vt autem sciant 
+          <app>
+            <lem>reges</lem>
+            <rdg wit="#C #L">reges cognoscant</rdg>
+          </app> 
+          qualiter uti debeant honoribus,
+          scire debent quod in scriptura sacra legimus honorem multiplicem. Est enim honor mundialis
+          ex humilitate spernendus, honor personalis cum sedulitate seruandus, honor curialis ex
+          urbanitate prestandus, honor principalis ex deuocione reddendus, honor eternalis ex
+          intentione querendus.
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e174">
+          Honor mundialis non est appetendus sed magis paruipendendus 
+          <pb ed="#L" n="4-r"/> 
+          sicut inferius
+          ostendetur capitulo de humilitate. 
+          Honor
+          <app>
+            <lem n="Honor"/>
+            <rdg wit="#C #L">personalis</rdg>
+          </app>
+          custodiendus est honor debitus anime, quo
+          uidelicet homo debet animam suam in sanctitatem omnem, 
+          solicite custodire, attendens in ea
+          diuine imaginis dignitatem, precium redemptionis, 
+          premium retributionis, et quod est filia regis 
+          <app>
+            <lem>altissimi</lem>
+            <rdg wit="#C #L" type="variation-absent"/>
+          </app>, 
+          <pb ed="#P" n="4-r"/> 
+          sponsa Christi, et spiritus sancti templum dicit sapiens: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e197" source="http://scta.info/resource/sir10_31@1-13 http://scta.info/resource/sir10_32@1-12">
+              Fili, in mansuetudine serua animam tuam, 
+              et da illi honorem secundum meritum suum, peccantem in 
+              animam suam quis 
+              <app>
+                <lem>iustificabit</lem>
+                <rdg wit="#C #L">uificabit</rdg>
+              </app> , 
+              et quis honorabit exhonorantem animam suam
+            </quote>
+            <bibl>
+              Ecclus 10:31–32
+            </bibl>
+          </cit>. 
+          Animam suam exhonorat aliquis, ancillam suam, id est carnem ei preferendo,
+          nudam sacris uirtutibus dimittendo, uidelicet seruiciis, idest peccatorum sordibus
+          occupando, lenonibus, id est demonibus prostituendo. Vnde de impiis scriptum est:
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e214" source="http://scta.info/resource/sap2_22@2-13 http://scta.info/resource/sap2_23@1-12">
+              Nescierunt sacramenta Dei nec mercedem sperauerunt justicie, nec iudicauerunt honorem
+              animarum sanctarum, quoniam Deus fecit hominem inexterminabilem, et ad imaginem
+              similitudinis sue fecit illum
+            </quote>
+            <bibl>
+              Sap 2:22–3
+            </bibl>
+          </cit>.
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e222">
+          Diligenter attende, si reus et execrabilis diceretur, qui mortuam imaginem crucifixi uel
+          beate uirginis conculcaret in luto, uel proiceret in cloacam, quanto magis qui peccato
+          sedat uiuam imaginem Dei uiui. Ideo precipit Dominus, custodi teipsum et animam tuam
+          solicite. Nam si rex propter exellenciam sui status, cum multa diligentia, reuerentia et
+          solicitudine 
+          <app>
+            <lem>honoratur</lem>
+            <rdg wit="#C #L">rueretur</rdg>
+          </app> 
+          ab aliis 
+          <app>
+            <lem>discat</lem>
+            <rdg wit="#C #L">dicet</rdg>
+          </app> 
+          semetipsum honorare, id est honorabilem exhibere
+          animam suam in omni sanctitate seruando. Nam sicut dicit sapiens, 
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e242" source="http://scta.info/resource/sir10_32@8-12">
+              exhonorantem animam suam 
+              quis honorabit?
+            </quote>
+            <bibl>
+              Ecclus 10:32
+            </bibl>
+          </cit>
+          Quasi 
+          <app>
+            <lem>dicat</lem>
+            <rdg wit="#C #L">diceret</rdg>
+          </app>, 
+          a nullo meretur honorem accipere, qui animam
+          suam negligit honorare, quanto enim quis pre ceteris honoratur, 
+          tanto animam suam amplius
+          honorare, id est in maiori sanctitate, 
+          et perfectionis culmine conseruare tenetur.
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e257">
+          Honor curialis ex urbanitate prestandus, 
+          est honor debitus proximo, de quo dicit
+          apostolus: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e261" source="http://scta.info/resource/rom12_10@5-7">honore inuicem preuenientes</quote>
+            <bibl>
+              Rom 12:10
+            </bibl>
+          </cit>, 
+          idem 
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e269" source="http://scta.info/resource/rom12_10@5-7">
+              reddite omnibus debita cui honorem, honorem
+            </quote>
+            <bibl>
+              Rom 13:7
+            </bibl>
+          </cit>; 
+          qualiter autem rex debeat alios honorare dicetur infra
+          capitulo de curialitate.
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e276">
+          Honor ex deuotione reddendus, est honor debitus Deo, de quo dicit apostolus: 
+          <pb ed="#C" n="3-v"/>
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e282" source="http://scta.info/resource/Itim1_17@6-10">soli Deo honor et gloria</quote>
+            <bibl>
+              1 Tim 1:17
+            </bibl>
+          </cit>.
+          <app>
+            <lem>Et psalmista dicit</lem>
+            <rdg wit="#C" type="variation-absent"/>
+          </app>: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e297" source="http://scta.info/resource/ps28_2@1-5">
+              adfferte domino gloriam et 
+              <pb ed="#L" n="4-v"/>
+              honorem
+            </quote>
+            <bibl>
+              Psal 28:2
+            </bibl>
+          </cit>.
+          <pb ed="#P" n="4-v"/>
+          Et bene dico reddendus quia Deus preuenit nos multipliciter
+          honorare, primo quidem in creatione nos ad imaginem suam producendo in incarnatione
+          naturam nostram sibi in unitatem persone, ineffabiliter uiuendo, in passione ab eterno nos
+          obprobrio liberando, in gubernatione, in omnium necessitate nobis amicabiliter assistendo;
+          unde scriptum est: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e310" source="http://scta.info/resource/sap19_20@20-40">
+              In omnibus magnificasti pupulum tuum domine, et honorasti, et non
+              despexisti in omnium tempore, et in omni loco assistens eis
+            </quote>
+            <bibl>
+              Sap 19:20
+            </bibl>
+          </cit>. 
+          Ideo non est
+          mirum, si a nobis exigit honorari, dicens per prophetam: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e318" source="http://scta.info/resource/mal1_6@1-25">
+              <seg type="qs">Filius honorat patrem et seruus 
+              Dominum suum</seg>
+              timebit. 
+              <seg type="qs">Si ergo pater ego sum ubi est honor meus, et si Dominus ego sum ubi
+              est timor meus</seg>
+            </quote>
+            <bibl>Mal 1:6</bibl>
+          </cit>. 
+          Propter quod ortatur 
+          <app>
+            <lem>nos</lem>
+            <rdg wit="#L">uos</rdg>
+          </app> 
+          sapiens et ait: 
+          <cit source="http://scta.info/resource/sir7_33@1-6">
+            <quote xml:id="dipc8h-aaaaac-Qd1e340">Honora Dominum ex tota anima tua</quote>
+            <bibl>Ecclus 7:33</bibl>
+          </cit>, 
+          et in Apocalipsi: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e347" source="http://scta.info/resource/ap14_7@4-14">
+              timete Dominum et date illi honorem quia uenit hora iudici eius
+            </quote>
+            <bibl>
+              Apoc 14:7
+            </bibl>
+          </cit>, 
+          qualiter autem rex Deum debeat honorare dicemus inferius.</p>
+        <p xml:id="dipc8h-aaaaac-d1e354">
+          Honor
+          <app>
+            <lem n="Honor"/>
+            <rdg wit="#C #L" type="variation-present">eternalis</rdg>
+          </app> 
+          ex intentione querendus est honor glorie, de quo dicitur per prophetam: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e366" source="http://scta.info/resource/bar5_1@1-23">
+              Exue te
+            Iherusalem stola luctus et uexationis tue, et indue 
+            <app>
+              <lem>te</lem>
+              <rdg wit="#P" type="variation-absent"/>
+            </app> 
+            decore et honore, 
+            <app>
+              <lem type="conjecture-corrected"><corr>que</corr></lem><!-- dbcheck; is this editorial conjecture or supported by another ms ? if ms, whicho ne? -->
+              <rdg wit="#C #L">qui</rdg>
+              <rdg wit="#P">quia</rdg>
+            </app> 
+            a Deo tibi
+            est in gloria sempiterna
+            </quote>
+            <bibl>
+              Bar 5:1
+            </bibl>
+          </cit>. 
+          Iste est uerus honor, qui a summo 
+          <app>
+            <lem>principe</lem>
+            <rdg wit="#C #L">pontifice</rdg>
+          </app> 
+          coram
+          summus principibus et glorioso cetu sanctorum omnium in sublimi ciuitate Iherusalem
+          conferetur. Ille uerus est honor qui nulli negabitur digno nulli conferetur indigno. De
+          hoc honore in figura dictum est in libro Hester: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e402" source="http://scta.info/resource/est6_7@2-6 http://scta.info/resource/est6_8@1-20">
+              Homo quem rex honorare cupit, debet indui
+              uestibus regiis, et imponi super equum, qui de sella regis est, et accipere regnum diadema
+              super caput suum
+            </quote>
+            <bibl>
+              Esther 6:7–8
+            </bibl>
+          </cit>. 
+          Sequitur hoc honore condignus est, quem rex uoluerit
+          honorare. Hic igitur honor toto corde et totis suspiriis et desideriis est appetendus,
+          <app>
+            <lem>tota mentis intentione querendus</lem>
+            <rdg wit="#C #L" type="variation-absent"/>
+          </app> . 
+          <app>
+            <lem>Ideo dicit <name xml:id="dipc8h-aaaaac-Nd1e420">beatus Gregorius</name>: 
+            <cit>
+              <quote xml:id="dipc8h-aaaaac-Qd1e424">
+                Si culmen ueri honoris queritis, 
+                ad illam celestem patriam quam totius properate
+              </quote>
+              <bibl>
+                <name>Gregory the Great</name>, 
+                <title>Homiliae in euangelia</title>, 
+                1.15.1, 
+                CCL 141: 104 
+              </bibl>
+            </cit>
+            </lem>
+            <rdg wit="#P" type="variation-absent"/>
+          </app>.
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e439">
+          Humano cordi naturaliter est infertus appetitus honoris, 
+          unde uidemus quod homines mundam
+          multum laborant et multa sustinent, 
+          multa munera largiuntur, 
+          ut ab hominibus honorentur.
+          Diuersas uias aduenire student 
+          <pb ed="#P" n="5-r"/>
+          per quas honores acquirere se 
+          <app>
+            <lem>confidunt</lem>
+            <rdg wit="#C #L">confidant</rdg>
+          </app>. 
+          Nam alius
+          scientiam cum magnis uigiliis, 
+          solicitudinibus et laboribus 
+          <app>
+            <lem>conatur</lem>
+            <rdg wit="#L">conantur</rdg>
+          </app> 
+          acquirere, 
+          alius sectando 
+          <app>
+            <lem>militiam</lem>
+            <rdg wit="#P">malitiam</rdg>
+          </app> 
+          multos corporis 
+          <pb ed="#L" n="5-r"/>
+          dolores sustinet, corpus et uitam exponens
+          periculis et animam perditioni, terram suam obligat, 
+          subiectos grauat, exactionibus nimiis. 
+          Alius ciuitates et castra discurrit, 
+          mare et aridam circuit, 
+          regna pertransit ut
+          acquirat diuicias temporales. 
+          Alius in seruitiis regum et principum, 
+          in multa humilitate
+          se subicit, labores sustinet et erumpnas. 
+          Hec autem omnes isti faciunt ut ex hiis
+          <app>
+            <lem>perueniant</lem>
+            <rdg wit="#C #L">proueniant</rdg>
+          </app> 
+          ad honores et plerumque deficiunt ante 
+          quam possunt peruenire seu pertingere,
+          uel si adepti fuerint parum aut nichil 
+          <app>
+            <lem>eis</lem>
+            <rdg wit="#L">ei</rdg>
+          </app> 
+          prosunt, 
+          sed frequentes obsunt, nec cum eis diu
+          permanere sinuntur.
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e487">
+          <pb ed="#C" n="4-r"/>
+          Quanto igitur desiderio, quanto mentis ardore, uerum et eternum honorem deberemus
+          appetere quam letantes omnia animam dare, quam constanter agere, quam gratantes cuncta
+          grauia sustinere, quam instantes orare quantis suspiriis gemitibus et lacrimis ad Deum
+          incessanter clamare ut ad illum mereremur peruenire. Attende quod qui in hoc mundo
+          consueuerunt honorari nec didiscerunt abiectiones et opprobria sustinere, longe grauius et
+          intollerabilius extremum obprobrium poterunt tollerare. Curent igitur et feruenter
+          uigilent ut de terrenis honoribus perueniant ad celestes, de temporalibus ad eternos, de
+          fallacibus ad ueraces.
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>
