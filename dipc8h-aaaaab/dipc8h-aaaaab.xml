@@ -162,9 +162,15 @@
         </p>
         <p xml:id="dipc8h-aaaaab-d1e233">
           Ex predictis aduerte quod sicut caput est ceteris membris altius collocatum, sic etiam
-          est pulcrius et perfectius, ut intelligas quod sicut rex precellit alios magnificentia
-          dignitatis, sic debet omnes excellere preeminentia bonitatis, quia sicut ait beatus
-          Bernardus: 
+          est pulcrius et perfectius, ut intelligas quod sicut rex 
+          <app>
+            <lem>precellit</lem>
+            <!-- possible mistake here beacuse P also has "excellit" -->
+            <rdg wit="#C">excellit</rdg>
+            <rdg wit="#L">excellit</rdg>
+          </app> alios magnificentia
+          dignitatis, sic debet omnes excellere preeminentia bonitatis, quia sicut ait 
+          <name xml:id="dipc8h-aaaaab-Nd1e251" ref="#Bernard">beatus Bernardus</name>: 
           <cit>
             <quote xml:id="dipc8h-aaaaab-Qd1e237">
               Monstruosa res est gradus summus et animus infimus, 
@@ -198,7 +204,7 @@
           in majori dignitate sublimatur indignus,
           <pb ed="#L" n="3-r"/>
           tanto euidentius manifestatur eius indignitas. 
-          Item <name xml:id="dipc8h-aaaaab-Nd1e264">Boecius</name> dicit: 
+          Item <name xml:id="dipc8h-aaaaab-Nd1e264" ref="#Boethius">Boecius</name> dicit: 
           <cit>
             <quote xml:id="dipc8h-aaaaab-Qd1e269" source="http://scta.info/resource/hy7y6y-d1e67-d1e278@7-42" type="paraphrase">
               Cum eo abiectior 
@@ -276,7 +282,7 @@
             <rdg wit="#P" type="variation-absent"/>
           </app>, 
           meliora, pulcriora, preciosioraque ualeant inueniri. Verbi gratia, electam familiam, 
-          equos electos, electissima iocalia, uina, cibaria, uestimenta, et huusmodi, 
+          equos electos, electissima iocalia, uina, cibaria, uestimenta, et <unclear>huiusmodi<!-- WORD file had huusmodi--></unclear>, 
           tanto magis ipsi inter electos esse debent electiores inter bonos, meliores, 
           et precunctis in omnibus
           excellentes. Nec debent esse contenti bonitate uel sanctitate communi, 

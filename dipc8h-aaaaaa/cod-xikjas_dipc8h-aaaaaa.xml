@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prooemium</title>
+        <author ref="per-dOcdOc">Durand of Champagne</author>
+        <editor>Constant Mews</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2023-02-19">February 19, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xikjas">Paris, Bnf, Lat. 16622</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-02-19" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="dipc8h-aaaaaa">
+        <head xml:id="dipc8h-aaaaaa-Hd1e106">Prooemium</head>
+        <p xml:id="dipc8h-aaaaaa-d1e108">
+          Incipit liber de informatione principum
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e119">
+          <lb ed="#P" n="1"/><quote xml:id="dipc8h-aaaaaa-Qd1e123">Regnabit rex et sapiens erit et faciet iudicium 
+          <lb ed="#P" n="2"/>et iusticiam in terra</quote> <ref xml:id="dipc8h-aaaaaa-Rd1e129">Ieremia XXIII</ref> <pc type="pilcrow"/>Si quis in 
+          <lb ed="#P" n="3"/>preclarissimo iuuene excellentissimi principis 
+          <lb ed="#P" n="4"/>ac domini prepotentis philippi, dei gracia francorum 
+          <lb ed="#P" n="5"/>regis illustrissimi primogenito domino uidelicet ludo<lb ed="#P" break="no" n="6"/>uico 
+          diligenter attendat uiuacem sensum <pc type="punctus"/> 
+          <lb ed="#P" n="7"/>subtile ingenium <pc type="punctus"/> tenacem memoriam <pc type="punctus"/> uoluntatem <pc type="punctus"/> ad bonum <pc type="punctus"/> 
+          <lb ed="#P" n="8"/>promptissimam <pc type="punctus"/> preclaritatem indolis et morum omnium uenustatem <pc type="punctus"/> luculenter 
+          <lb ed="#P" n="9"/>potest aduertere <pc type="punctus"/> quam uere <pc type="punctus"/> de dicto domino Ludouico possit intelligi 
+          <lb ed="#P" n="10"/>uerbum propositum <pc type="punctus"/> <quote xml:id="dipc8h-aaaaaa-Qd1e133">Regnabit rex et sapiens erit</quote> etc. Et quam preclare 
+          <lb ed="#P" n="11"/>et signanter propheta sanctus <pc type="punctus"/> quasi demonstrans eum digito <pc type="punctus"/> de 
+          <lb ed="#P" n="12"/>ipso prenunciet <pc type="punctus"/> qualis sperandus sit esse futurus et qualiter in 
+          <lb ed="#P" n="13"/>regni rectitudine <pc type="punctus"/> sic acturus <pc type="punctus"/> predicens autem propheta elegantes conditiones 
+          <lb ed="#P" n="14"/>ipsius <pc type="punctus"/> breuiter sufficienter et clare docet <pc type="punctus"/> omnem regem et principem <pc type="punctus"/> 
+          <lb ed="#P" n="15"/>describens eum quantum at statum excellentie <pc type="punctus"/> actum uel usum 
+          <lb ed="#P" n="16"/>presidencie lumen <unclear>directivum <!--directum in MS Word edition; but not crit app entry; directivum seems more correct--></unclear> finem <unclear>completivum<!-- completium in MSWORD text, but I think this should be completivum--></unclear> primum 
+          <lb ed="#P" n="17"/>intelligitur cum dicit <quote xml:id="dipc8h-aaaaaa-Qd1e141">Rex</quote> secundum<!-- 2m --> cum addit <quote xml:id="dipc8h-aaaaaa-Qd1e147">Regnabit</quote> <!--3m-->tercium 
+          <lb ed="#P" n="18"/>cum subiungit <quote xml:id="dipc8h-aaaaaa-Qd1e154">sapiens erit</quote> quartum <!--4m--> Cum ait <quote xml:id="dipc8h-aaaaaa-Qd1e158">faciet iudicium 
+          <lb ed="#P" n="19"/>et iusticiam in terra</quote>
+          <!-- additional text in C and L here -->
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e164">
+          <pc type="pilcrow"/>Ista quatuor <!--4or--> sunt necessaria <pc type="punctus"/> nec unum sine altero 
+          <lb ed="#P" n="20"/>sufficeret <pc type="pilcrow"/> Status enim excellentie sine actu est <choice><orig>occiosus</orig><reg>ociosus</reg></choice> et 
+          <lb ed="#P" n="21"/>inutilis Sicut enim <choice><orig>occulus</orig><reg>oculus</reg></choice> non uidens auris non audiens 
+          <lb ed="#P" n="22"/>manus non operans <pc type="punctus"/> medicus non medicans <pc type="punctus"/> et sicut statua 
+          <lb ed="#P" n="23"/>uel ydolum <pc type="punctus"/> habens quidem similitudinem hominis uiuentis et tamen de 
+          <lb ed="#P" n="24"/>natura et ueritate hominis nichil habens talis est Rex non Regnans 
+          <lb ed="#P" n="25"/><pc type="pilcrow"/>Item actus presidentie sine statu est temerarius iniquus 
+          <lb ed="#P" n="26"/>et detestabilis ut si aliquis aliquis usurparet regnare super <pc type="punctus"/> terram 
+          <lb ed="#P" n="27"/>non suam iniquus esset ideo bene iungit propheta ista duo <quote xml:id="dipc8h-aaaaaa-Qd1e183">Re<lb ed="#P" break="no" n="28"/>gnabit 
+          rex</quote> <pc type="pilcrow"/> Item regi necessaria est sapientia quia nec Regnare nec 
+          <lb ed="#P" n="29"/>iudicium uel iusticiam facere sciret sine sapientia dirigente 
+          <pb ed="#P" n="1-v"/> 
+          <lb ed="#P" n="1"/>Nullus enim artifex que sunt artis immo nec artificis nomen habet 
+          <lb ed="#P" n="2"/>sine sciencia artis sue <pc type="punctus"/> non enim debet dici medicus qui non habet scientiam medicine 
+          <lb ed="#P" n="3"/>nec lathomus uel carpentarius est dicendus qui nichil nouit de 
+          <lb ed="#P" n="4"/>istis artificiis <pc type="punctus"/> ita nec rem nec nomen regis habere debet qui non 
+          <lb ed="#P" n="5"/>habet scienciam dirigentem <pc type="pilcrow"/> Item tria non sufficiunt sine quarto 
+          <lb ed="#P" n="6"/>quod est <quote xml:id="dipc8h-aaaaaa-Qd1e227">facere iudicium et iustiticiam in terra</quote> Ad hoc enim instituti 
+          <lb ed="#P" n="7"/>sunt reges sicut scriptum est <quote xml:id="dipc8h-aaaaaa-Qd1e235">Constituit te dominus Regem 
+          <lb ed="#P" n="8"/>ut faceres iudicium</quote> Sicut ergo debet Episcopus intendere circa regimen 
+          <lb ed="#P" n="9"/>animarum Sacerdos celebrare clericus legere magister docere 
+          <lb ed="#P" n="10"/>Religiosus orare et sue religionis statuta seruare quia ad predicta
+          <lb ed="#P" n="11"/>institutus est quilibet predictorum sic rex tenetur <quote xml:id="dipc8h-aaaaaa-Qd1e243">facere iudicium et 
+          <lb ed="#P" n="12"/>iusticiam</quote> quia ad hoc institutus est Bene ergo dicit propheta Iheremias in uerbo 
+          <lb ed="#P" n="13"/>supradicto <quote xml:id="dipc8h-aaaaaa-Qd1e256">Regnabit rex et sapiens erit et faciet iudicium et 
+          <lb ed="#P" n="14"/>iusticiam in terra</quote> <pc type="pilcrow"/>Iuxta numerum quatuor<!-- 4or --> predictorum istud opusculum in partes 
+          <lb ed="#P" n="15"/>quatuor est diuisum de quorum singulis ordine quo supra sunt proposita 
+          <lb ed="#P" n="16"/>prosequemur Explicit prohemium
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e268">
+          Incipiunt tituli capitulorum prime partis
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e287">
+          <lb ed="#P" n="17"/>Prima pars huius tractatus habet capitula xxxiiii <pc type="pilcrow"/> Primum est 
+          <lb ed="#P" n="18"/>de dignitate et excellencia status regalis Quatuor sequentia 
+          <lb ed="#P" n="19"/>sunt de <choice><orig>4or</orig><reg>quatuor</reg></choice> concomitantibus regiam dignitatem propter que uidetur appetibilis 
+          <lb ed="#P" n="20"/>que sunt sublimitas honoris et glorie mundialis immensitas potencie 
+          <lb ed="#P" n="21"/>secularis Opulencia diuitiarum temporalium affluencia deliciarum 
+          <lb ed="#P" n="22"/>corporalium ita quod
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e308">
+          <pc type="pilcrow"/> <choice><orig>2m</orig><reg>Secundum</reg></choice> capitulum huius operis est de sublimitate honoris et 
+          <lb ed="#P" n="23"/>glorie
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e310">
+          <choice><orig>3m</orig><reg>Tertium</reg></choice> de potencia regali
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e312">
+          <choice><orig>4m</orig><reg>Quartum</reg></choice> de opulencia diuiciarum
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e314">
+          <pc type="pilcrow"/> <choice><orig>5m</orig><reg>Quintum</reg></choice> de affluentia 
+          <lb ed="#P" n="24"/>deliciarum
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e316"><choice><orig>4or</orig><reg>Quatuor</reg></choice> sequentia sunt de quatuor annexis terreno principatui 
+          <lb ed="#P" n="25"/>propter que secundum ueritatem appareret non appetibilis que sunt uanitas 
+          <lb ed="#P" n="26"/>breuitas <pc type="punctus"/> pondus negotiorum metus periculorum Ita quod
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e322">
+          <pc type="pilcrow"/>Sextum 
+          <lb ed="#P" n="27"/>capitulum est de uanitate terrene dominationis
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e324">
+          <pc type="pilcrow"/> Septimum de breuitate durationis
+       </p>
+        <p xml:id="dipc8h-aaaaaa-d1e326">
+          <pc type="pilcrow"/> Octauum de pondere negociorum
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e328">
+          <pc type="pilcrow"/> Nonum de terrore periculorum
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e330">
+          <lb ed="#P" n="28"/><pc type="pilcrow"/> Decimum quod debet rex esse fidei ueritate fundatus
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e332">
+          <pc type="pilcrow"/> Undecimum quod rex debet esse spei 
+          <pb ed="#P" n="2-r"/> 
+          soliditate firmatus
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e338">
+          <choice><orig>12m</orig><reg>Duodecimum</reg></choice> <!-- no "quod" here in P, but no entry in app crit --> debet esse in dei amore perfectus
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e349">
+          13m 
+          <lb ed="#P" n="1"/><!-- no "quod" here in P, but no entry in app crit --> debet esse deo timore subiectus
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e351">
+          14m <!-- no "quod" here in P, but no entry in app crit --> debet esse in oratione deuotus
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e362">
+          15m <!-- no "quod" here in P, but no entry in app crit --> 
+          <lb ed="#P" n="2"/>debet esse ecclesie <unclear>dei</unclear> reuerens et <unclear>benivolus<!--text in MSWORD file was: beneuolens--></unclear> 
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e364">
+          <pc type="pilcrow"/> 16m <!-- no "quod" here in P, but no entry in app crit --> debet esse humilis in sui reputatione
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e366">
+          <lb ed="#P" n="3"/>17m <!-- no quod --> debet <unclear>esse</unclear> docilis in doctrine susceptione
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e369">
+          18m <!-- no quod --> debet esse <unclear>ductibilis<!-- MS word file has: ductilis --></unclear> in per<lb ed="#P" break="no" n="4"/>suasione
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e371">
+          19m <!-- no quod --> debet esse stabilis in operatione
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e373">
+          <pc type="pilcrow"/>20m <!--in Word doc but not in ms: quod rex--> debet esse honestus in 
+          <lb ed="#P" n="5"/>conuersatione
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e375">
+          21m <!--no "quod"--> debet esse modestus in opere et sermone
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e377">
+          <pc type="pilcrow"/> 22m 
+          <lb ed="#P" n="6"/><!-- no "quod" -->debet esse secretus in consultatione
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e379">
+          <pc type="pilcrow"/>23m <!-- no "quod" --> debet esse discretus in loquutione
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e382">
+          <lb ed="#P" n="7"/>24m <!-- no "quod" --> debet esse curialis in suscipiendis hospitibus
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e384">
+          <pc type="pilcrow"/>25m <!--no "quod"--> debet 
+          <lb ed="#P" n="8"/>esse liberalis in conferendis muneribus
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e386">
+          26m <!--in Ms Word but non in MSquod rex--> debet esse magnificus
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e388">
+          <lb ed="#P" n="9"/>27m <!-- no "quod" --> debet esse magnanimus
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e390">
+          <pc type="pilcrow"/>28m <!--no "quod"--> debet esse continens in carnis de<lb ed="#P" break="no" n="10"/>lectatione 
+          frenanda
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e392">
+          <lb ed="#P" n="11"/>29m <!--no "quod"--> debet abstinens esse in corporis Refectione 
+          <lb ed="#P" n="12"/>sumenda
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e395">
+          <pc type="pilcrow"/>30m <!--no "quod"--> Regem decet clementia
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e397">
+          <pc type="pilcrow"/> 31m <unclear>Rex<!-- Res not in MsWord File --></unclear> debet esse bonis 
+          <lb ed="#P" n="13"/>amabilis
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e399">
+          <pc type="pilcrow"/>32m malis debet esse terribilis
+        </p>
+        <p xml:id="dipc8h-aaaaaa-d1e401">
+          <pc type="pilcrow"/>33m <!--no "quod"--> Regem 
+          <lb ed="#P" n="14"/>decet patiencia
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

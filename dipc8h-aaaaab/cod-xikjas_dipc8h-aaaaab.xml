@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 1</title>
+        <author ref="per-dOcdOc">Durand of Champagne</author>
+        <editor>Constant Mews</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 1</title>
+          <date when="2023-02-19">February 19, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xikjas">Paris, Bnf, Lat. 16622</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-02-19" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="2-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="dipc8h-aaaaab">
+        <head xml:id="dipc8h-aaaaab-Hd1e106">Capitulum 1</head>
+        <head xml:id="dipc8h-aaaaab-Hd1e108" type="question-title">Dignitas regiae majestatis</head>
+        <p xml:id="dipc8h-aaaaab-d1e111">
+          de excellencia et dignitate regie maiestatis
+        </p>
+        <p xml:id="dipc8h-aaaaab-d1e134">
+          <lb ed="#P" n="15"/>Circa primum consideranda est primo dignitas regie 
+          <lb ed="#P" n="16"/>maiestatis <pc type="pilcrow"/> Sciendum est autem quod cum Respublica sit quasi 
+          <lb ed="#P" n="17"/>quoddam corpus compaginatum ex membris uariis Rex <!--uel in MS word without crit app entry, but not in ms, b--> 
+          <lb ed="#P" n="18"/>princeps in eo obtinet locum capitis Senescali 
+          <lb ed="#P" n="19"/>prepositi et iudices officium aurum habent et oculorum Sapientes
+          <lb ed="#P" n="20"/><unclear>et<!-- et in ms but not in WORD doc --></unclear> consiliarii officium cordis milites protegentes sunt ad modum 
+          <lb ed="#P" n="21"/>manuum mercatores discurrentes per mundum ad modum tibiarum 
+          <lb ed="#P" n="22"/>agricole et alli pauperes solo inherentes ad modum pedum princeps 
+          <lb ed="#P" n="23"/>igitur in corpore reipublice est sicut caput unde dixit Samuel ad Saul 
+          <lb ed="#P" n="24"/><quote xml:id="dipc8h-aaaaab-Qd1e174">Cum esses paruulus in <choice><orig>occulis</orig><reg>oculis</reg></choice> tuis nonne caput in tribubus 
+          <lb ed="#P" n="25"/>israel factus es</quote> Et merito per caput designatur Rex uel princeps
+          <lb ed="#P" n="26"/>quia sicut caput omnibus membris superimponitur et est omnium Regitiuum 
+          <lb ed="#P" n="27"/>et in sublimine erectum et omnibus sensibus <unclear>dotatiuum<!-- dotatum --></unclear> singulari uenustate 
+          <lb ed="#P" n="28"/>effigiatum Ita Rex uel princeps omnibus superponitur omnes habet 
+          <lb ed="#P" n="29"/>dirigere cordis <choice><orig>occulos</orig><reg>oculos</reg></choice> et faciem anime debet ad celum erigere omnibus 
+          <pb ed="#P" n="2-v"/> 
+          <lb ed="#P" n="1"/>sensibus id est perfecta cognitione debet precellere singulari morum 
+          <lb ed="#P" n="2"/>uenustate pollere Vnde merito regi uel principi omnes obediunt <pc type="punctus"/> 
+          <lb ed="#P" n="3"/>sicut capiti omnia corporis membra deseruiunt Vnde ait <ref xml:id="dipc8h-aaaaab-Rd1e192">beatus 
+          <lb ed="#P" n="4"/>ambrosius</ref> <quote xml:id="dipc8h-aaaaab-Qd1e196">huic <unclear>igitur<!-- id est --></unclear> principi quasi consultori suo cetera membra 
+          <lb ed="#P" n="5"/>famulantur et in sublimi collocatum uehunt</quote> videas imperatori 
+          <lb ed="#P" n="6"/>suo singula gratuito stipendio militare alia portant alia 
+          <lb ed="#P" n="7"/>pascunt alia <choice><orig>deffendunt</orig><reg>defendunt</reg></choice> uel ministerium suum exhibent parent 
+          <lb ed="#P" n="8"/>famulantur ut domino
+        </p>
+        <p xml:id="dipc8h-aaaaab-d1e233">
+          <pc type="pilcrow"/> Ex predictis aduerte quod sicut caput est 
+          <lb ed="#P" n="9"/>ceteris membris <unclear>altius<!-- alterius --></unclear> collocatum sic etiam est pulcrius et 
+          <lb ed="#P" n="10"/>perfectius ut intelligas quod sicut Rex <unclear>excellit <!--WORD file says precellit and says LC have excellit; possible error in app crit listing--></unclear> alios magnificentia
+          <lb ed="#P" n="11"/>dignitatis sic debet omnes excellere preeminentia bonitatis quia sicut 
+          <lb ed="#P" n="12"/>ait <name xml:id="dipc8h-aaaaab-Nd1e251">Beatus Bernardus</name> <quote xml:id="dipc8h-aaaaab-Qd1e237">monstruosa Res est gradus summus et animus 
+          <lb ed="#P" n="13"/>infimus sedes prima et fides yma lingua magniloqua et 
+          <lb ed="#P" n="14"/>manus ociosa sermo multus et fructus nullus uultus grauis 
+          <lb ed="#P" n="15"/>et actus leuis ingens auctoritas et nutans stabilitas</quote>
+          <lb ed="#P" n="16"/>Idem etiam dicit <quote xml:id="dipc8h-aaaaab-Qd1e251">Simia in tecto Rex fatuus in solio sedens</quote>
+          <lb ed="#P" n="17"/>pulchre et proprie loquitur quia simia quanto plus ascendit 
+          <lb ed="#P" n="18"/>tanto euidentius apparet eius turpitudo Sic quanto in maiori 
+          <lb ed="#P" n="19"/>dignitate sublimatur indignus tanto euidentius manifestatur 
+          <lb ed="#P" n="20"/>eius indignitas <pc type="pilcrow"/>Item <name xml:id="dipc8h-aaaaab-Nd1e264">Boecius</name> dicit <quote xml:id="dipc8h-aaaaab-Qd1e269">Cum eo abiectior sit quisque 
+          <lb ed="#P" n="21"/>quo magis contempnitur a pluribus <pc type="punctus"/> dignitas autem temporalis 
+          <lb ed="#P" n="22"/>non <unclear>possit <!-- posset in WORD doc with no app entry --></unclear> facere malos reuerendos quanto dignitas eos pluribus 
+          <lb ed="#P" n="23"/>ostendit tanto despectiores facit et hoc merito Reddunt enim   
+          <lb ed="#P" n="24"/>mali dignitatibus parem uicem quas sua contagione 
+          <lb ed="#P" n="25"/>conmaculant et sicut ipsi deturpant dignitates sic econuerso</quote>
+          <lb ed="#P" n="26"/>Ideo recitat <name xml:id="dipc8h-aaaaab-Nd1e282">Ieromus</name> quod cum <name xml:id="dipc8h-aaaaab-Nd1e284">Cesar</name> quosdam indignos ornare 
+          <lb ed="#P" n="27"/>uoluisset non eos honestauit sed ornamenta ipsa id est dignitates 
+          <lb ed="#P" n="28"/>deturpauit scilicet propter indignitatem illorum
+          <lb ed="#P" n="29"/>Item diligenter 
+          <lb ed="#P" n="30"/>attende quod facta regum et principum faciliter trahuntur ab aliis 
+          <pb ed="#P" n="3-r"/> 
+          <lb ed="#P" n="1"/>in exemplum et plus mouent populum ad bonum uel ad malum imitandum 
+          <lb ed="#P" n="2"/>quam exempla inferiorum <pc type="punctus"/> facta enim egregia et opera uirtuosa principis
+          <lb ed="#P" n="3"/>magis admiratur populus et plus notat et conmendat quam inferioris 
+          <lb ed="#P" n="4"/>persone Vnde <ref xml:id="dipc8h-aaaaab-Rd1e300"><name xml:id="dipc8h-aaaaab-Nd1e301">claudianus</name> ad theodosium</ref> loquens sic ait 
+          <lb ed="#P" n="5"/><quote xml:id="dipc8h-aaaaab-Qd1e306">Componitur orbis regis ad exemplum nec sic inflectere sensus 
+          <lb ed="#P" n="6"/>humanos edicta ualent <pc type="virgula">/</pc> quam uita regentis <pc type="virgula">/</pc> mobile mutatur semper 
+          <lb ed="#P" n="7"/>cum principe uulgus</quote> <pc type="virgula">/</pc> ideo sicut in libro regum legimus <quote xml:id="dipc8h-aaaaab-Qd1e311">Boni<lb ed="#P" break="no" n="8"/>tatem 
+          uel malitiam regis <pc type="punctus"/> imitabatur populus</quote> quando <unclear>autem <!--enim in WORD doc without app entry--></unclear> reges erant 
+          <lb ed="#P" n="9"/>boni timentes et colentes deum <pc type="virgula">/</pc> populus bonus erat <pc type="virgula">/</pc> quando autem reges 
+          <lb ed="#P" n="10"/>erant ydolatre uel peccatis aliis irretiti <pc type="punctus"/> tunc et populus ad ydolatriam 
+          <lb ed="#P" n="11"/>et ad multa scelera defluebat <pc type="pilcrow"/> Igitur sumopere studere debet rex 
+          <lb ed="#P" n="12"/>bonus esse <pc type="punctus"/> ut multis sit exemplum et speculum bonitatis <pc type="punctus"/> ne forte 
+          <lb ed="#P" n="13"/>si malus sit multis sit perditionis occasio <pc type="punctus"/> eique mors omnium imputetur 
+          <lb ed="#P" n="14"/>quia sicut ait <name xml:id="dipc8h-aaaaab-Nd1e319">gregorius</name> <quote xml:id="dipc8h-aaaaab-Qd1e323">Sciant prelati <unclear>quoniam <!--quam in WORD, but looks like quoniam--></unclear> tot mortibus digni sunt 
+          <lb ed="#P" n="15"/>quot perditionis exempla ad subditos <sic>trasmittunt</sic></quote> <pc type="punctus"/> hoc autem non 
+          <lb ed="#P" n="16"/>solum ad prelatos ecclesiasticos sed etiam ad reges et principes debet intelligi 
+          <lb ed="#P" n="17"/>pertinere.
+        </p>
+        <p xml:id="dipc8h-aaaaab-d1e328">
+          <pc type="pilcrow"/> Item cum reges et principes singula queque uelint 
+          <lb ed="#P" n="18"/>habere preelecta meliora pulcriora preciosioraque <unclear>quae <!-- quae not noted in WORD file--></unclear> ualeant 
+          <lb ed="#P" n="19"/>inueniri verbi gratia electam familiam equos electos electissima iocalia 
+          <lb ed="#P" n="20"/>uina cibaria uestimenta et <unclear>huiusmodi <!-- word file had huusmodi --></unclear> <unclear>quanto <!--WORD file has tanto and P reading of quanto not noted--></unclear> magis ipsi inter electos 
+          <lb ed="#P" n="21"/>esse debent electiores inter bonos meliores <pc type="virgula">/</pc> et precunctis in omnibus
+          <lb ed="#P" n="22"/>excellentes nec debent esse contenti bonitate uel sanctitate communi,
+          <lb ed="#P" n="23"/>nisi tantum excedat bonitas eorum quantus status eorum exedit statum 
+          <lb ed="#P" n="24"/>omnium subditorum <pc type="pilcrow"/> Ex predictis patet quod rex uel princeps 
+          <lb ed="#P" n="25"/>laborare debet non solum bonus esse sed melior omnibus
+        </p>
+        <p xml:id="dipc8h-aaaaab-d1e348">
+          <pc type="pilcrow"/> primo 
+          <lb ed="#P" n="26"/>ne tanta dignitate sit indignus <pc type="pilcrow"/> <choice><orig>2o</orig><reg>Secundo</reg></choice> ne multorum peccata 
+          <lb ed="#P" n="27"/>sibi imputentur et pro omnibus puniatur <pc type="pilcrow"/> <choice><orig>3o</orig><reg>Tertio</reg></choice> ne omnium rerum suarum 
+          <lb ed="#P" n="28"/>bonitas preelecta sit <unclear>ei<!-- ei not noted in WORD file --></unclear> in obprobrium et confusionem extremam 
+          <lb ed="#P" n="29"/>nisi omnibus melior et electior inueniatur <pc type="pilcrow"/> Hec de bonitate regis 
+          <pb ed="#P" n="3-v"/>
+          <lb ed="#P" n="1"/>in generali sufficiunt quia de bonitate speciali eius inferius in 
+          <lb ed="#P" n="2"/>speciali dicemus
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

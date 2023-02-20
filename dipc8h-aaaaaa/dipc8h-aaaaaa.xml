@@ -120,8 +120,8 @@
           Item regi necessaria est sapientia, quia nec regnare nec iudicium
           <app>
             <lem>uel</lem>
-            <rdg wit="#P">per</rdg>
             <rdg wit="#C">per</rdg>
+            <rdg wit="#L">per</rdg>
           </app> 
           iusticiam facere sciret sine sapientia dirigente. 
           <pb ed="#P" n="1-v"/> 
@@ -165,10 +165,14 @@
           Sicut ergo
           debet episcopus intendere circa regimen animarum, sacerdos celebrare, clericus legere,
           magister docere, religiosus orare et sue religionis statuta seruare, quia ad predicta
-          institutus est quilibet predictorum. Sic rex tenetur <cit><quote xml:id="dipc8h-aaaaaa-Qd1e243" source="http://scta.info/resource/ier23_5@18-21">facere iudicium et iusticiam</quote></cit> quia ad
-          hoc institutus est. Bene ergo dicit propheta Ieremias in uerbo supra 
+          institutus est quilibet predictorum. Sic rex tenetur 
+          <cit>
+            <quote xml:id="dipc8h-aaaaaa-Qd1e243" source="http://scta.info/resource/ier23_5@18-21">facere iudicium et iusticiam</quote>
+          </cit> 
+          quia ad
+          hoc institutus est. Bene ergo dicit propheta Ieremias in uerbo  
           <app>
-            <lem>proposito</lem>
+            <lem>supra proposito</lem>
             <rdg wit="#P">supradicto</rdg>
           </app>: 
           <cit>
