@@ -142,7 +142,7 @@
           <lb ed="#P" n="27"/>capitulum est de uanitate terrene dominationis
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e324">
-          <pc type="pilcrow"/> Septimum de breuitate durationis
+          <pc type="pilcrow"/> Septimum de Breuitate du<lb ed="#P" break="no" n="28"/>rationis
        </p>
         <p xml:id="dipc8h-aaaaaa-d1e326">
           <pc type="pilcrow"/> Octauum de pondere negociorum
@@ -151,72 +151,72 @@
           <pc type="pilcrow"/> Nonum de terrore periculorum
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e330">
-          <lb ed="#P" n="28"/><pc type="pilcrow"/> Decimum quod debet rex esse fidei ueritate fundatus
+          <lb ed="#P" n="29"/><pc type="pilcrow"/> Decimum quod debet rex esse fidei ueritate fundatus
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e332">
           <pc type="pilcrow"/> Undecimum quod rex debet esse spei 
           <pb ed="#P" n="2-r"/> 
-          soliditate firmatus
+          <lb ed="#P" n="1"/>soliditate firmatus
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e338">
           <choice><orig>12m</orig><reg>Duodecimum</reg></choice> <!-- no "quod" here in P, but no entry in app crit --> debet esse in dei amore perfectus
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e349">
           13m 
-          <lb ed="#P" n="1"/><!-- no "quod" here in P, but no entry in app crit --> debet esse deo timore subiectus
+          <lb ed="#P" n="2"/><!-- no "quod" here in P, but no entry in app crit --> debet esse deo timore subiectus
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e351">
           14m <!-- no "quod" here in P, but no entry in app crit --> debet esse in oratione deuotus
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e362">
           15m <!-- no "quod" here in P, but no entry in app crit --> 
-          <lb ed="#P" n="2"/>debet esse ecclesie <unclear>dei</unclear> reuerens et <unclear>benivolus<!--text in MSWORD file was: beneuolens--></unclear> 
+          <lb ed="#P" n="3"/>debet esse ecclesie <unclear>dei</unclear> reuerens et <unclear>benivolus<!--text in MSWORD file was: beneuolens--></unclear> 
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e364">
           <pc type="pilcrow"/> 16m <!-- no "quod" here in P, but no entry in app crit --> debet esse humilis in sui reputatione
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e366">
-          <lb ed="#P" n="3"/>17m <!-- no quod --> debet <unclear>esse</unclear> docilis in doctrine susceptione
+          <lb ed="#P" n="4"/>17m <!-- no quod --> debet <unclear>esse</unclear> docilis in doctrine susceptione
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e369">
-          18m <!-- no quod --> debet esse <unclear>ductibilis<!-- MS word file has: ductilis --></unclear> in per<lb ed="#P" break="no" n="4"/>suasione
+          18m <!-- no quod --> debet esse <unclear>ductibilis<!-- MS word file has: ductilis --></unclear> in per<lb ed="#P" break="no" n="5"/>suasione
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e371">
           19m <!-- no quod --> debet esse stabilis in operatione
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e373">
           <pc type="pilcrow"/>20m <!--in Word doc but not in ms: quod rex--> debet esse honestus in 
-          <lb ed="#P" n="5"/>conuersatione
+          <lb ed="#P" n="6"/>conuersatione
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e375">
           21m <!--no "quod"--> debet esse modestus in opere et sermone
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e377">
           <pc type="pilcrow"/> 22m 
-          <lb ed="#P" n="6"/><!-- no "quod" -->debet esse secretus in consultatione
+          <lb ed="#P" n="7"/><!-- no "quod" -->debet esse secretus in consultatione
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e379">
           <pc type="pilcrow"/>23m <!-- no "quod" --> debet esse discretus in loquutione
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e382">
-          <lb ed="#P" n="7"/>24m <!-- no "quod" --> debet esse curialis in suscipiendis hospitibus
+          <lb ed="#P" n="8"/>24m <!-- no "quod" --> debet esse curialis in suscipiendis hospitibus
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e384">
           <pc type="pilcrow"/>25m <!--no "quod"--> debet 
-          <lb ed="#P" n="8"/>esse liberalis in conferendis muneribus
+          <lb ed="#P" n="9"/>esse liberalis in conferendis muneribus
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e386">
           26m <!--in Ms Word but non in MSquod rex--> debet esse magnificus
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e388">
-          <lb ed="#P" n="9"/>27m <!-- no "quod" --> debet esse magnanimus
+          <lb ed="#P" n="10"/>27m <!-- no "quod" --> debet esse magnanimus
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e390">
-          <pc type="pilcrow"/>28m <!--no "quod"--> debet esse continens in carnis de<lb ed="#P" break="no" n="10"/>lectatione 
+          <pc type="pilcrow"/>28m <!--no "quod"--> debet esse continens in carnis de<lb ed="#P" break="no" n="11"/>lectatione 
           frenanda
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e392">
-          <lb ed="#P" n="11"/>29m <!--no "quod"--> debet abstinens esse in corporis Refectione 
+          <pc type="pilcrow"/> 29m <!--no "quod"--> debet abstinens esse in corporis Refectione 
           <lb ed="#P" n="12"/>sumenda
         </p>
         <p xml:id="dipc8h-aaaaaa-d1e395">
