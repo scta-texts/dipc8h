@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 3</title>
+        <author ref="per-dOcdOc">Durand of Champagne</author>
+        <editor>Constant Mews</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 3</title>
+          <date when="2023-02-21">February 21, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xikjas">Paris, Bnf, Lat. 16622</witness>
+          <witness xml:id="C" n="cod-cccccc">C</witness>
+          <witness xml:id="L" n="cod-lllllk">L</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition. </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-02-21" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="5-r"/>
+        <pb ed="#C" n="4-v"/>
+        <pb ed="#L" n="5-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="dipc8h-aaaaad">
+        <head xml:id="dipc8h-aaaaac-Hd1e106">Capitulum 3</head>
+        <p xml:id="dipc8h-aaaaad-d1e109">
+          <app>
+            <lem>Capitulum tertium</lem>
+            <rdg wit="#C">Tertium capitulum</rdg>
+          </app> 
+          De potentia regali
+        </p>
+        <p xml:id="dipc8h-aaaaad-d1e120">
+          Secundum quod concomitatur regiam dignitatem est preeminentia 
+          <app>
+            <lem>dignitatis</lem>
+            <rdg wit="#L" type="correction-addition">
+              <add place="margin">potestatis</add>
+            </rdg>
+          </app>; 
+          hec enim
+          est necessaria regibus et principibus 
+          ut populum sibi subiectum possint defendere et ab
+          inimicorum iniuriis preseruare. 
+          Qui autem potentior est ille maior et honorabilior
+          reputatur. 
+          Hec autem potestas consistit in quatuor uidelicet:
+        </p>
+        <p xml:id="dipc8h-aaaaad-d1e134">
+          In numerosa multitudine populi sicut ait sapiens: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaad-Qd1e138" source="http://scta.info/resource/prov14_28@1-5">
+              In multitudine populi dignitas 
+              <pb ed="#P" n="5-v"/>
+              regis
+            </quote>
+            <bibl>
+              Prov 14:28
+            </bibl>
+          </cit> 
+          quod est intelligendum si populus regem suum amet, fideliter
+          humiliter ei in omnibus 
+          <app>
+            <lem>obediat</lem>
+            <rdg wit="#L">obedient</rdg>
+          </app> 
+          et letanter. 
+          De amore populi ad principem dicit Seneca:
+          <cit>
+            <quote xml:id="dipc8h-aaaaad-Qd1e156">
+              Insuperabile munimentum principis est amor ciuium
+            </quote>
+            <bibl>
+              <name>Seneca</name>, <title>De clementia</title>, 
+              1.19. 6, 210–251, 236
+            </bibl>
+          </cit>. 
+          Curet igitur princeps amari a
+          subditis quia multo melius est paucos 
+          habere fideliter diligentes quam innumerabiles parum
+          fideles et modicum diligentes. 
+          Nam tales quanto plures sunt, 
+          tanto facilius contra Dominum
+          rebellant, de sua multitudine 
+          <pb ed="#L" n="5-v"/> 
+          confidentes.
+        </p>
+        <p xml:id="dipc8h-aaaaad-d1e169">
+          Qualiter autem rex potest se facere amabilem populo suo? Infra dicemus de obedientia
+          populi dicitur in <unclear>secondo</unclear> libro Esdre ubi dicitur de tribus iuuenibus quorum 
+          <cit>
+            <quote xml:id="dipc8h-aaaaad-Qd1e175">unus scripsit: 
+              Forte est uinum, alius 
+              <app>
+                <lem>scripsit</lem>
+                <rdg wit="#C #L" type="variation-absent"/>
+              </app>: 
+              fortior est rex, tertius scripsit: fortiores sunt mulieres
+            </quote>
+            <bibl>
+              Liber III Esdrae 3:10, ed. B. Fischer, J. Gribomont, H.F.D. Sparks, W. Thiele et R. Weber (1975), 1915
+            </bibl>
+          </cit>, 
+          etc. 
+          Ille autem qui dixerat de fortitudine et potentia
+          regis dixit homines terram et mare obtinent et omnia 
+          que in eis sunt. 
+          Rex autem super
+          omnia precellit et dominatur eorum 
+          et omne quodcumque dixerit illis faciunt. 
+          Et si miserit
+          illos ad bellatores uadunt et demoliuntur 
+          et muros et turres iugulantur et iugilant et
+          regis uerba non pretereunt. 
+          Nam si uicerint, asserunt regi 
+          <app>
+            <lem>quodcumque</lem>
+            <rdg wit="#C #L">quemcumque</rdg>
+          </app> 
+          predati fuerint,
+          semper et omnia alia et quotquot non militant nec pugnant, 
+          sed colunt terram, asserunt
+          tributa regi et ipse unus solus est.
+          Et si dixerit occidere occidunt, 
+          <app>
+            <lem n="occidunt"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del>si dixerit occidere occidunt</del>
+            </rdg>
+          </app>
+          si dixerit
+          remittere remittunt, si dixerit exterminare exterminant, 
+          si dixerit edificare, edificant,
+          si dixerit plantare plantant, 
+          et omnis plebs et uirtutes eum obaudiunt, 
+          et super hoc ipse
+          recumbit et bibit et dormit. 
+          Hii autem custodiunt eum in circuitu et non possunt ire
+          <pb ed="#C" n="4-v"/>
+          singuli et facere opera sua, 
+          sed in dicto sunt obedientes ei.
+        </p>
+        <p xml:id="dipc8h-aaaaad-d1e210">
+          Item regis potentia consistit in armorum apparatu copioso et multitudine militum et
+          uirorum in arte militari probatorum et in rebus bellicis expertorum. Item in multitudine
+          sapientium expertorum in multis, quia 
+          <cit>
+            <quote xml:id="dipc8h-aaaaad-Qd1e214" source="http://scta.info/resource/qoh9_18@1-6">melior est sapientia quam arma bellica</quote>
+            <bibl>
+              Eccle 9:18
+            </bibl>
+          </cit>,
+          <app>
+            <lem>ait sapiens, et alibi 
+              <cit>
+                <quote xml:id="dipc8h-aaaaad-Qd1e226" source="http://scta.info/resource/prov24_6@2-5">cum dispositione initur bellum</quote>
+                <bibl>
+                  Prov 24:6
+                </bibl>
+              </cit>
+            </lem>
+            <rdg wit="#P" type="variation-absent"/>
+          </app>.
+        </p>
+        <p xml:id="dipc8h-aaaaad-d1e237">
+          Item multitudo sapientium, 
+          <cit>
+            <quote xml:id="dipc8h-aaaaad-Qd1e241" source="http://scta.info/resource/sap6_26@4-7">sanitas est orbis terrarum</quote>
+            <bibl>Sap 6:26</bibl>
+          </cit> . 
+          Item abundantia
+          <pb ed="#P" n="6-r"/> 
+          diuiciarum et ingentium thesaurorum. 
+          Sed de hoc dicemus statim, talis potestas licet
+          magna et magnifica uideatur, tamen modica est secundum ueritatem, nec de ipsa debet homo
+          multum confidere, quia sicut dicitur in 
+          <ref xml:id="dipc8h-aaaaad-Rd1e249">libro Machabeorum</ref>: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaad-Qd1e253">Non in multitudine exercitus est uictoria belli sed de celo fortitudo est</quote>
+            <bibl>[1 Macc 3:19]</bibl>
+          </cit>. 
+          ibidem. Non est difficile in
+          conspectu dei saluare in multis uel in paucis. 
+          Item non saluatur rex per multam uirtutem
+          et gigas non saluabitur 
+          <cit>
+            <quote xml:id="dipc8h-aaaaad-Qd1e260" source="http://scta.info/resource/ps32_16@11-14">in multitudine uirtutis sue</quote>
+            <bibl>[Psal 32:16]</bibl>
+          </cit> . 
+          Ad hec multa sunt
+          exempla in 
+          <app>
+            <lem>
+              tertio et quarto libro regum et 
+            </lem>
+            <rdg wit="#C #L">
+              primo et secundo (libro Maccabeorum)
+            </rdg>
+          </app> 
+          in <!-- possibile error in WORD doc for app placement -->
+          libro Machabeorum. 
+          Item modica est potestas
+          que modicum 
+          <pb ed="#L" n="6-r"/>
+          uentum estum uel frigus pluuiam uel grandinem non potest impedire nec
+          modicam febrem. De corpore suo potest expellere; memento de rege Quinoto, qui cum maxima
+          imperii sui uirtute et prosperitate floreret, sedile suum in littore maris intumenscentis
+          et ascendentis collocari precepit et alloquens mari, dixit: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaad-Qd1e281">
+              Impero tibi ne tu ascendas
+              terram meam, 
+              <app>
+                <lem>nec</lem>
+                <rdg wit="#C">ne</rdg>
+              </app> 
+              uestes uel membra dominatoris tui madefacere presumas. Nichilominus mare
+              ascendit in terram et pedes eius madefecit <!-- missing end quotation mark here -->
+            </quote>
+          </cit>. 
+          Quo facto ille resiliens ait: 
+          <cit>
+            <quote xml:id="dipc8h-aaaaad-Qd1e297">
+              Sciant omnes
+              habitatores orbis, uanam et friuolam esse regis potentiam, nec regis nomine quempiam
+              dignum esse preter illum cuius nutui celum terra mare et omnia que in eis sunt obediunt
+            </quote>
+          </cit>.
+          Ex tunc numquam capiti suo coronam auream imposuit, sed posuit eam 
+          <app>
+            <lem>super</lem>
+            <rdg wit="#C">sub</rdg>
+          </app> 
+          imaginem
+          saluatoris in cruce in laudem gloriosam et honorem regis eterni. 
+          Cum tamen esset rex Noruergie, Norangie, 
+          <app>
+            <lem>Dacie</lem>
+            <rdg wit="#C">idacie</rdg>
+          </app> 
+          et Anglie.
+        </p>
+        <p xml:id="dipc8h-aaaaad-d1e318">
+          Rex qui potens est temporaliter et ueraciter 
+          <app>
+            <lem>potens</lem>
+            <rdg wit="#L" type="variation-absent"/>
+          </app> 
+          esse desiderat, potestatem suam
+          execat in expugnandis uiciis ut nulla temptatione se superati permittat. Item in agendis
+          operibus magnis et arduis, ut magna magnifice et regaliter operetur. Item in repressione
+          malorum, promotione bonorum, dura increpatione delinquentium, seuera 
+          <app>
+            <lem>punicione</lem>
+            <rdg wit="#C">pugnicione</rdg>
+          </app>
+          <pb ed="#P" n="6-v"/>
+          iniquorum, pia defensione pauperum et miserabilium personarum. Item in operationibus
+          sanctis ut apud regem eternum preualeat obtinere de peccatis indulgentiam et gratiam pro
+          meritis acquirendis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
