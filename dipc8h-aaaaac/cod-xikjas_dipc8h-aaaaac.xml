@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 2</title>
+        <author ref="per-dOcdOc">Durand of Champagne</author>
+        <editor>Constant Mews</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder and transcription corrections</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 2</title>
+          <date when="2023-02-25">February 25, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xikjas">Paris, Bnf, Lat. 16622</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-02-25" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="3-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="dipc8h-aaaaac">
+        <head xml:id="dipc8h-aaaaac-Hd1e106">Capitulum 2</head>
+        <p xml:id="dipc8h-aaaaac-d1e108">
+          de 4or concomitantibus Regiam dignitatem Capitulum 2m 
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e119">
+          <lb ed="#P" n="3"/>Regiam dignitatem communiter quatuor concomitantur 
+          <lb ed="#P" n="4"/>que multum videntur hominibus appetenda et propter que solent
+          <lb ed="#P" n="5"/>homines appetere dominationes terrenas siue excellencias temporales 
+          <lb ed="#P" n="6"/>videlicet sublimitas honoris et glorie mundialis immensitas 
+          <lb ed="#P" n="7"/>Roboris et potencie secularis Opulencia diuiciarum temporalium 
+          <lb ed="#P" n="8"/>affluencia deliciarum corporalium. 
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e145">
+          <unclear>de sublimitate honoris glorie</unclear> <!-- seems like an intext heading for this section, but I don't see this noted in Word doc -->
+          <lb ed="#P" n="9"/><pc type="pilcrow"/> Solent enim et debent reges a subditis honorati sicut 
+          <lb ed="#P" n="10"/>capita corporis <pc type="punctus"/> sicut patres patrie <pc type="punctus"/> sicut duces et patroni 
+          <lb ed="#P" n="11"/>et populi protectores <pc type="punctus"/> per quos sunt in terra fertilitas et ha<lb ed="#P" break="no" n="12"/>bundancia 
+          facultatum <pc type="punctus"/> gaudium cordis et concordia voluntatum 
+          <lb ed="#P" n="13"/>pax inter <pc type="punctus"/> ipsos subditos et securitas ab inimicis undique cir<lb ed="#P" break="no" n="14"/>cumstantibus 
+          conseruatur <pc type="punctus"/> ideo dicit beatus Petrus: <quote xml:id="dipc8h-aaaaac-Qd1e149">Regem hono<lb ed="#P" break="no" n="15"/>rificate</quote> 
+          Idem <quote xml:id="dipc8h-aaaaac-Qd1e158">subditi estote omni humane creature 
+          <lb ed="#P" n="16"/>propter deum siue regi quasi precellenti siue duabus <unclear>tanquam <!-- says tanque in WORD doc --></unclear> ab eo missis 
+          <lb ed="#P" n="17"/>ad uindictam maledictorum laudem uero bonorum</quote> <pc type="pilcrow"/> Vt autem sciant reges qualiter uti debeant honoribus scire debent quod in scriptura 
+          <lb ed="#P" n="18"/>sacra legimus honorem multiplicem <pc type="pilcrow"/> Est enim honor 
+          <lb ed="#P" n="19"/>mundialis <pc type="punctus"/> ex humilitate spernendus honor personalis cum 
+          <lb ed="#P" n="20"/>sedulitate seruandus honor curialis ex urbanitate 
+          <lb ed="#P" n="21"/>prestandus honor principalis ex deuocione Reddendus 
+          <lb ed="#P" n="22"/>honor eternalis ex intentione querendus
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e174">
+          <pc type="pilcrow"/>Honor 
+          <lb ed="#P" n="23"/>mundialis non est appetendus sed magis paruipendendus 
+          <lb ed="#P" n="24"/>sicut inferius ostendetur capitulo de humilitate <pc type="pilcrow"/> honor custodiendus 
+          <lb ed="#P" n="25"/>est honor debitus anime quo videlicet homo debet 
+          <lb ed="#P" n="26"/>animam suam in <unclear>omni sanctitate <!-- WORD doc had "sanctitatem omnem" --></unclear> solicite custodire attendens 
+          <lb ed="#P" n="27"/>in ea diuine ymaginis dignitatem precium redemptionis <pc type="punctus"/> 
+          <lb ed="#P" n="28"/>premium retributionis <pc type="punctus"/> et quod est filia regis altissimi
+          <pb ed="#P" n="4-r"/> 
+          <lb ed="#P" n="1"/>sponsa Christi et spiritus sancti templum dicit sapiens <pc type="punctus"/> <quote xml:id="dipc8h-aaaaac-Qd1e197">fili in man<lb ed="#P" break="no" n="2"/>suetudine 
+          serua animam tuam <pc type="punctus"/> et da illi honorem secundum meritum 
+          <lb ed="#P" n="3"/>suum <pc type="punctus"/> peccantem in animam suam quis iustificabit et quis hono<lb ed="#P" break="no" n="4"/>rabit 
+          exhonorantem animam suam</quote> <pc type="punctus"/> Animam suam exhonorat 
+          <lb ed="#P" n="5"/>aliquis ancillam suam id est carnem ei preferendo nudam sacris 
+          <lb ed="#P" n="6"/>uirtutibus dimittendo uidelicet seruiciis id est peccatorum sordibus occupando 
+          <lb ed="#P" n="7"/>lenonibus id est demonibus prostituendo Vnde de impiis scriptum 
+          <lb ed="#P" n="8"/>est <quote xml:id="dipc8h-aaaaac-Qd1e214">Nescierunt sacramenta dei nec mercedem sperauerunt iusticie 
+          <lb ed="#P" n="9"/>nec iudicauerunt honorem animarum sanctarum quoniam deus fecit hominem 
+          <lb ed="#P" n="10"/>inexterminabilem et ad ymaginem similitudinis sue fecit 
+          <lb ed="#P" n="11"/>illum</quote>
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e222">
+          <pc type="pilcrow"/> Diligenter attende si Reus et execrabilis 
+          <lb ed="#P" n="12"/>diceretur qui mortuam ymaginem crucifixi uel beate uirginis 
+          <lb ed="#P" n="13"/>conculcaret in luto uel proiceret in cloacam quanto magis 
+          <lb ed="#P" n="14"/>qui peccato sedat uiuam ymaginem dei uiui Ideo precipit dominus 
+          <lb ed="#P" n="15"/>custodi <unclear>temetipsum <!--WORD doc has "teipsum"--></unclear> et animam tuam solicite Nam si Rex propter 
+          <lb ed="#P" n="16"/><unclear>excellentiam <!--WORD Doc had "exellenciam"--></unclear> sui status cum multa diligentia reuerentia et <unclear>sollicitudine <!-- word doc has: "solicitudine" --></unclear> 
+          <lb ed="#P" n="17"/>honoratur ab aliis discat semetipsum honorare id est honorabilem 
+          <lb ed="#P" n="18"/>exhibere animam suam in omni sanctitate seruando Nam sicut dicit sapiens <quote xml:id="dipc8h-aaaaac-Qd1e242">exhonorantem animam suam quis honorabit</quote> <pc type="punctus"/> quasi <pc type="punctus"/> dicat a nullo 
+          <lb ed="#P" n="19"/>meretur honorem accipere qui animam suam negligit honorare 
+          <lb ed="#P" n="20"/>Quanto enim quis pre ceteris honoratur tanto animam suam amplius 
+          <lb ed="#P" n="21"/>honorare id est in maiori sanctitate et perfectionis culmine conseruare 
+          <lb ed="#P" n="22"/>tenetur
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e257">
+          <pc type="pilcrow"/> honor curialis ex urbanitate prestandus est 
+          <lb ed="#P" n="23"/>honor debitus proximo de quo dicit Apostolus <quote xml:id="dipc8h-aaaaac-Qd1e261">honore inuicem preuenientes</quote> Idem <quote xml:id="dipc8h-aaaaac-Qd1e269">Reddite omnibus debita <pc type="punctus"/> cui honorem <pc type="punctus"/> 
+          <lb ed="#P" n="24"/>honorem</quote>  <pc type="punctus"/> Qualiter autem Rex debeat alios honorare dicetur 
+          <lb ed="#P" n="25"/><ref xml:id="dipc8h-aaaaac-Rd1e288">infra capitulo de curialitate</ref>
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e276">
+          <pc type="pilcrow"/> honor ex deuotione Redden<lb ed="#P" break="no" n="26"/>dus 
+          est honor debitus deo de quo dicit Apostolus <quote xml:id="dipc8h-aaaaac-Qd1e282">Soli deo 
+          <lb ed="#P" n="27"/>honor et gloria</quote> Et psalmista dicit <quote xml:id="dipc8h-aaaaac-Qd1e297">afferte domino gloriam et honorem</quote>
+          <pb ed="#P" n="4-v"/>
+          <lb ed="#P" n="1"/>Et bene dico reddendus quia deus preuenit nos multipliciter
+          <lb ed="#P" n="2"/>honorare primo quidem in creatione nos ad ymaginem suam producendo 
+          <lb ed="#P" n="3"/>in incarnatione naturam nostram sibi in unitatem persone ineffabiliter 
+          <lb ed="#P" n="4"/>uiuendo in passione ab eterno nos <unclear>obprobrio</unclear> liberando In 
+          <lb ed="#P" n="5"/>gubernatione in omnium necessitate nobis amicabiliter assistendo 
+          <lb ed="#P" n="6"/>unde scriptum est <quote xml:id="dipc8h-aaaaac-Qd1e310">In omnibus magnificasti <unclear>populum <!--In WORD DOC: "pupulum"--></unclear> tuum domine et 
+          <lb ed="#P" n="7"/>honorasti et non despexisti in omnium tempore et in omni loco assistens 
+          <lb ed="#P" n="8"/>eis</quote> Ideo non est mirum si a nobis exigit honorari dicens 
+          <lb ed="#P" n="9"/>per prophetam<quote xml:id="dipc8h-aaaaac-Qd1e318"><seg type="qs">filius honorat patrem et seruus dominum suum</seg> 
+          <lb ed="#P" n="10"/>timebit <seg type="qs">si ergo pater ego sum ubi est honor meus Et si dominus 
+          <lb ed="#P" n="11"/>ego sum ubi est timor meus</seg></quote> propter quod <unclear>hortatur <!--WORD DOC: ortatur--></unclear> nos sapiens 
+          <lb ed="#P" n="12"/>et ait <quote xml:id="dipc8h-aaaaac-Qd1e340">honora dominum ex tota anima tua</quote> et in apocalipsi <quote xml:id="dipc8h-aaaaac-Qd1e347">timete 
+          <lb ed="#P" n="13"/>dominum et date illi honorem quia uenit hora iudici eius</quote> Qualiter 
+          <lb ed="#P" n="14"/>autem Rex deum debeat honorare dicemus inferius
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e354">
+          <pc type="pilcrow"/> Honor 
+          <lb ed="#P" n="15"/>ex intentione querendus est honor glorie de quo dicitur per prophetam <quote xml:id="dipc8h-aaaaac-Qd1e366">Exue 
+          <lb ed="#P" n="16"/>te Iherusalem stola luctus et uexationis tue et indue decore et honore 
+          <lb ed="#P" n="17"/>quia a deo tibi est in gloria sempiterna</quote> Iste est uerus honor qui 
+          <lb ed="#P" n="18"/>a summo principe coram summus principibus et glorioso cetu sanctorum omnium 
+          <lb ed="#P" n="19"/>in sublimi ciuitate iherusalem conferetur Ille verus est honor 
+          <lb ed="#P" n="20"/>qui nulli negabitur digno nulli conferetur indigno de hoc honore 
+          <lb ed="#P" n="21"/>in figura dictum est in libro hester: <quote xml:id="dipc8h-aaaaac-Qd1e402">homo quem Rex honorare 
+          <lb ed="#P" n="22"/>cupit debet indui uestibus regiis, et imponi super equum qui de sella 
+          <lb ed="#P" n="23"/>regis est et accipere regnum dyadema super caput suum</quote> Sequitur 
+          <lb ed="#P" n="24"/>hoc honore condignus est quem rex uoluerit honorare hic igitur 
+          <lb ed="#P" n="25"/>honor toto corde et totis suspiriis et desideriis est appetendus
+          <lb ed="#P" n="26"/>tota mentis intentione querendus
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e439">
+          <pc type="pilcrow"/> humano cordi naturaliter 
+          <lb ed="#P" n="27"/>est infertus appetitus honoris unde uidemus quod homines mundam 
+          <lb ed="#P" n="28"/>multum laborant et multa sustinent multa munera largiuntur 
+          <lb ed="#P" n="29"/>ut ab hominibus honorentur diuersas uias aduenire student 
+          <pb ed="#P" n="5-r"/>
+          <lb ed="#P" n="1"/>per quas honores acquirere se confidunt Nam alius scientiam 
+          <lb ed="#P" n="2"/>cum magnis uigiliis <unclear>sollicitudinibus<!--WORD DOC: solicitudinibus--></unclear> et laboribus conatur acquirere 
+          <lb ed="#P" n="3"/>alius sectando malitiam multos corporis dolores sustinet corpus 
+          <lb ed="#P" n="4"/>et uitam exponens periculis et animam perditioni <pc type="punctus"/> terram suam obligat 
+          <lb ed="#P" n="5"/>subiectos grauat exactionibus nimiis Alius ciuitates et 
+          <lb ed="#P" n="6"/>castra discurrit mare et aridam circuit regna pertransit 
+          <lb ed="#P" n="7"/>ut acquirat diuicias temporales Alius in seruitiis Regum et principum 
+          <lb ed="#P" n="8"/>in multa humilitate se subicit labores sustinet et erumpnas 
+          <lb ed="#P" n="9"/>hec autem omnes isti faciunt ut ex hiis perueniant ad honores et 
+          <lb ed="#P" n="10"/>plerumque deficiunt ante quam possunt peruenire seu pertingere
+          <lb ed="#P" n="11"/>uel si adepti fuerint parum aut nichil eis prosunt sed fre<lb ed="#P" break="no" n="12"/>quentes 
+          obsunt nec cum eis diu permanere sinuntur
+        </p>
+        <p xml:id="dipc8h-aaaaac-d1e487">
+          <lb ed="#P" n="13"/>Quanto 
+          <lb ed="#P" n="14"/>igitur desiderio quanto mentis ardore uerum et eternum honorem 
+          <lb ed="#P" n="15"/>deberemus appetere quam letantes omnia animam dare <pc type="punctus"/> quam constanter agere 
+          <lb ed="#P" n="16"/>quam <unclear>gratanter <!--WORD DOC: gratantes--></unclear> cuncta grauia sustinere quam instantes orare quantis 
+          <lb ed="#P" n="17"/>suspiriis gemitibus et lacrimis ad deum incessanter clamare 
+          <lb ed="#P" n="18"/>ut ad illum mereremur peruenire attende quod qui in hoc mundo 
+          <lb ed="#P" n="19"/>consueuerunt honorari nec <unclear>didicerunt<!--WORD DOC:  didiscerunt--></unclear> abiectiones et opprobria 
+          <lb ed="#P" n="20"/>sustinere longe grauius et intollerabilius extremum opprobrium 
+          <lb ed="#P" n="21"/>poterunt tolerare Curent igitur et feruenter uigilent ut de 
+          <lb ed="#P" n="22"/>terrenis honoribus perueniant ad celestes de temporalibus ad eternos 
+          <lb ed="#P" n="23"/>de fallacibus ad ueraces
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

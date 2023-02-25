@@ -63,7 +63,7 @@
             <rdg wit="#C" type="variation-inversion">
               Primum capitulum
             </rdg>
-            <rdg wit="#P" type="variation-absent"/>
+            <rdg wit="#P" type="variation-absent" facs="2r/14"/>
           </app> 
           <app>
             <lem>dignitas regie majestatis</lem>
@@ -152,7 +152,7 @@
           parent 
           <app>
             <lem>uel principi</lem>
-            <rdg wit="#P" type="variation-absent"/>
+            <rdg wit="#P" type="variation-absent" facs="2r/7"/>
           </app> 
           famulantur, 
           <app>
@@ -178,7 +178,7 @@
               et 
               <app>
                 <lem>uita</lem>
-                <rdg wit="#P">fides</rdg>
+                <rdg wit="#P" facs="2v/13">fides</rdg>
               </app> 
               ima,
               lingua magniloqua et manus ociosa, 
@@ -279,7 +279,7 @@
           Item cum reges et principes singula queque uelint habere preelecta 
           <app>
             <lem>id est</lem>
-            <rdg wit="#P" type="variation-absent"/>
+            <rdg wit="#P" type="variation-absent" facs="3r/18"/>
           </app>, 
           meliora, pulcriora, preciosioraque ualeant inueniri. Verbi gratia, electam familiam, 
           equos electos, electissima iocalia, uina, cibaria, uestimenta, et <unclear>huiusmodi<!-- WORD file had huusmodi--></unclear>, 
@@ -291,8 +291,9 @@
           excedat bonitas eorum, 
           <app>
             <lem>quantum</lem>
-            <rdg wit="#P">quantus</rdg>
-          </app> status eorum exedit statum omnium subditorum. 
+            <rdg wit="#P" facs="3r/23">quantus</rdg>
+          </app> 
+          status eorum exedit statum omnium subditorum. 
           Ex predictis
           patet quod rex uel princeps laborare debet non solum bonus esse, 
           sed melior omnibus.</p>

@@ -73,7 +73,7 @@
           appetenda, et propter que solent
           <app>
             <lem n="solent"/>
-            <rdg wit="#P">homines</rdg>
+            <rdg wit="#P" facs="3v/5">homines</rdg>
           </app> 
           appetere dominationes terrenas siue excellencias
           temporales. Videlicet sublimitas honoris et glorie 
@@ -94,15 +94,22 @@
             <quote xml:id="dipc8h-aaaaac-Qd1e149" source="http://scta.info/resource/Ipetr2_17@7-8">Regem honorificate</quote>
             <bibl>1 Pet 2:17</bibl>
           </cit>. 
-          Idem, subditi estote omni humane 
-          <pb ed="#C" n="3-r"/>
-          creature propter
-          Deum, siue regi quasi precellenti siue duabus tanque ab eo missis, ad uindictam
-          <app>
-            <lem>malefactorum</lem>
-            <rdg wit="#P">maledictorum</rdg>
-          </app>, 
-          laudem uero bonorum. 
+          Idem, 
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e158" source="http://scta.info/resource/Ipetr2_13@1-11 http://scta.info/resource/Ipetr2_14@1-12">
+              <!-- biblical quote not marked in WORD doc --> 
+              subditi estote omni humane 
+              <pb ed="#C" n="3-r"/>
+              creature propter
+              Deum, siue regi quasi precellenti siue duabus tanque ab eo missis, ad uindictam
+              <app>
+                <lem>malefactorum</lem>
+                <rdg wit="#P" facs="3v/17">maledictorum</rdg>
+              </app>, 
+            laudem uero bonorum
+            </quote>
+            <bibl>1 Pet 2:13-14</bibl>
+          </cit>. 
           Vt autem sciant 
           <app>
             <lem>reges</lem>
@@ -220,8 +227,12 @@
               Rom 13:7
             </bibl>
           </cit>; 
-          qualiter autem rex debeat alios honorare dicetur infra
-          capitulo de curialitate.
+          qualiter autem rex debeat alios honorare dicetur 
+          <cit>
+            <ref xml:id="dipc8h-aaaaac-Rd1e288">
+              infra capitulo de curialitate
+            </ref>
+          </cit>.
         </p>
         <p xml:id="dipc8h-aaaaac-d1e276">
           Honor ex deuotione reddendus, est honor debitus Deo, de quo dicit apostolus: 
@@ -279,8 +290,8 @@
             <rdg wit="#L">uos</rdg>
           </app> 
           sapiens et ait: 
-          <cit source="http://scta.info/resource/sir7_33@1-6">
-            <quote xml:id="dipc8h-aaaaac-Qd1e340">Honora Dominum ex tota anima tua</quote>
+          <cit>
+            <quote xml:id="dipc8h-aaaaac-Qd1e340"  source="http://scta.info/resource/sir7_33@1-6">Honora Dominum ex tota anima tua</quote>
             <bibl>Ecclus 7:33</bibl>
           </cit>, 
           et in Apocalipsi: 
@@ -306,13 +317,13 @@
             Iherusalem stola luctus et uexationis tue, et indue 
             <app>
               <lem>te</lem>
-              <rdg wit="#P" type="variation-absent"/>
+              <rdg wit="#P" type="variation-absent" facs="4v/16"/>
             </app> 
             decore et honore, 
             <app>
               <lem type="conjecture-corrected"><corr>que</corr></lem><!-- dbcheck; is this editorial conjecture or supported by another ms ? if ms, whicho ne? -->
               <rdg wit="#C #L">qui</rdg>
-              <rdg wit="#P">quia</rdg>
+              <rdg wit="#P" facs="4v/17">quia</rdg>
             </app> 
             a Deo tibi
             est in gloria sempiterna
@@ -345,7 +356,7 @@
           <app>
             <lem>tota mentis intentione querendus</lem>
             <rdg wit="#C #L" type="variation-absent"/>
-          </app> . 
+          </app>. 
           <app>
             <lem>Ideo dicit <name xml:id="dipc8h-aaaaac-Nd1e420">beatus Gregorius</name>: 
             <cit>
@@ -361,7 +372,7 @@
               </bibl>
             </cit>
             </lem>
-            <rdg wit="#P" type="variation-absent"/>
+            <rdg wit="#P" type="variation-absent" facs="4v/26"/>
           </app>.
         </p>
         <p xml:id="dipc8h-aaaaac-d1e439">
@@ -388,7 +399,7 @@
           alius sectando 
           <app>
             <lem>militiam</lem>
-            <rdg wit="#P">malitiam</rdg>
+            <rdg wit="#P" facs="5r/3">malitiam</rdg>
           </app> 
           multos corporis 
           <pb ed="#L" n="5-r"/>
